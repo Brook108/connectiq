@@ -1,0 +1,128 @@
+import Toybox.Lang;
+using Toybox.WatchUi;
+using Toybox.WatchUi as Ui;
+using Toybox.Graphics;
+using Toybox.Graphics as Gfx;
+
+module Rez {
+    module Drawables {
+        (:initialized) var battery1Icon as Symbol;
+        (:initialized) var LauncherIcon as Symbol;
+    } // Drawables
+
+    module Fonts {
+    } // Fonts
+
+    module JsonData {
+    } // JsonData
+
+    module Layouts {
+        function MainLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+            var rez_cmp_local_var_dc_getHeight = dc.getHeight();
+
+            var rez_cmp_local_var_dc_getWidth = dc.getWidth();
+
+            var rez_cmp_local_custom_drawable_57200263675953142414 = new Background();
+
+            var rez_cmp_local_text_label = new WatchUi.Text({:identifier=>"label", :color=>Graphics.COLOR_LT_GRAY, :locX=>(rez_cmp_local_var_dc_getWidth * 0.5), :locY=>((rez_cmp_local_var_dc_getHeight - dc.getFontHeight(Graphics.FONT_TINY)) * 0.5), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_TINY});
+
+            var rez_cmp_local_text_value = new WatchUi.Text({:identifier=>"value", :color=>Graphics.COLOR_LT_GRAY, :locX=>(rez_cmp_local_var_dc_getWidth * 0.5), :locY=>((rez_cmp_local_var_dc_getHeight - dc.getFontHeight(Graphics.FONT_TINY)) * 0.5), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_TINY});
+
+            var rez_cmp_local_text_HeartRate = new WatchUi.Text({:identifier=>"HeartRate", :color=>Graphics.COLOR_LT_GRAY, :locX=>(rez_cmp_local_var_dc_getWidth * 0.5), :locY=>((rez_cmp_local_var_dc_getHeight - dc.getFontHeight(Graphics.FONT_TINY)) * 0.5), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_TINY});
+
+            var rez_cmp_local_text_MaxHeartRate = new WatchUi.Text({:identifier=>"MaxHeartRate", :color=>Graphics.COLOR_WHITE, :locX=>(rez_cmp_local_var_dc_getWidth * 0.5), :locY=>((rez_cmp_local_var_dc_getHeight - dc.getFontHeight(Graphics.FONT_LARGE)) * 0.5), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_LARGE});
+
+            return [rez_cmp_local_custom_drawable_57200263675953142414, rez_cmp_local_text_label, rez_cmp_local_text_value, rez_cmp_local_text_HeartRate, rez_cmp_local_text_MaxHeartRate] as Array<WatchUi.Drawable>;
+        }
+
+        function TopLeftLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+            var rez_cmp_local_custom_drawable_11919929846048093467 = new Background();
+
+            var rez_cmp_local_text_label = new WatchUi.Text({:identifier=>"label", :color=>Graphics.COLOR_LT_GRAY, :locX=>95, :locY=>75, :justification=>Graphics.TEXT_JUSTIFY_RIGHT, :font=>Graphics.FONT_TINY});
+
+            var rez_cmp_local_text_value = new WatchUi.Text({:identifier=>"value", :color=>Graphics.COLOR_WHITE, :locX=>95, :locY=>42, :justification=>Graphics.TEXT_JUSTIFY_RIGHT, :font=>Graphics.FONT_LARGE});
+
+            return [rez_cmp_local_custom_drawable_11919929846048093467, rez_cmp_local_text_label, rez_cmp_local_text_value] as Array<WatchUi.Drawable>;
+        }
+
+        function TopRightLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+            var rez_cmp_local_custom_drawable_56695862180304553019 = new Background();
+
+            var rez_cmp_local_text_label = new WatchUi.Text({:identifier=>"label", :color=>Graphics.COLOR_LT_GRAY, :locX=>14, :locY=>75, :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_TINY});
+
+            var rez_cmp_local_text_value = new WatchUi.Text({:identifier=>"value", :color=>Graphics.COLOR_WHITE, :locX=>14, :locY=>42, :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_LARGE});
+
+            return [rez_cmp_local_custom_drawable_56695862180304553019, rez_cmp_local_text_label, rez_cmp_local_text_value] as Array<WatchUi.Drawable>;
+        }
+
+        function BottomLeftLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+            var rez_cmp_local_custom_drawable_61937240514480789271 = new Background();
+
+            var rez_cmp_local_text_label = new WatchUi.Text({:identifier=>"label", :color=>Graphics.COLOR_LT_GRAY, :locX=>95, :locY=>10, :justification=>Graphics.TEXT_JUSTIFY_RIGHT, :font=>Graphics.FONT_TINY});
+
+            var rez_cmp_local_text_value = new WatchUi.Text({:identifier=>"value", :color=>Graphics.COLOR_WHITE, :locX=>95, :locY=>27, :justification=>Graphics.TEXT_JUSTIFY_RIGHT, :font=>Graphics.FONT_LARGE});
+
+            return [rez_cmp_local_custom_drawable_61937240514480789271, rez_cmp_local_text_label, rez_cmp_local_text_value] as Array<WatchUi.Drawable>;
+        }
+
+        function BottomRightLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+            var rez_cmp_local_custom_drawable_13095622551067402015 = new Background();
+
+            var rez_cmp_local_text_label = new WatchUi.Text({:identifier=>"label", :color=>Graphics.COLOR_LT_GRAY, :locX=>14, :locY=>10, :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_TINY});
+
+            var rez_cmp_local_text_value = new WatchUi.Text({:identifier=>"value", :color=>Graphics.COLOR_WHITE, :locX=>14, :locY=>27, :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_LARGE});
+
+            return [rez_cmp_local_custom_drawable_13095622551067402015, rez_cmp_local_text_label, rez_cmp_local_text_value] as Array<WatchUi.Drawable>;
+        }
+
+        function TopLineLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+            var rez_cmp_local_custom_drawable_10614272491194174686 = new Background();
+
+            var rez_cmp_local_custom_drawable_LauncherIcon = new $.Rez.Drawables.LauncherIcon();
+            if (rez_cmp_local_custom_drawable_LauncherIcon.identifier == null) {
+                rez_cmp_local_custom_drawable_LauncherIcon.identifier = "LauncherIcon";
+            }
+
+            var rez_cmp_local_text_directionValue = new WatchUi.Text({:identifier=>"directionValue", :color=>Graphics.COLOR_BLACK, :locX=>0, :locY=>0, :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_TINY});
+
+            var rez_cmp_local_text_slopeLabel = new WatchUi.Text({:identifier=>"slopeLabel", :color=>Graphics.COLOR_BLACK, :locX=>0, :locY=>0, :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_TINY});
+
+            var rez_cmp_local_text_slopeValue = new WatchUi.Text({:identifier=>"slopeValue", :color=>Graphics.COLOR_BLACK, :locX=>0, :locY=>0, :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_TINY});
+
+            var rez_cmp_local_text_celsiusValue = new WatchUi.Text({:identifier=>"celsiusValue", :color=>Graphics.COLOR_BLACK, :locX=>0, :locY=>0, :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_TINY});
+
+            var rez_cmp_local_text_batteryLabel = new WatchUi.Text({:identifier=>"batteryLabel", :color=>Graphics.COLOR_BLACK, :locX=>0, :locY=>0, :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_TINY});
+
+            var rez_cmp_local_text_batteryValue = new WatchUi.Text({:identifier=>"batteryValue", :color=>Graphics.COLOR_BLACK, :locX=>0, :locY=>0, :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_TINY});
+
+            var rez_cmp_local_text_timeValue = new WatchUi.Text({:identifier=>"timeValue", :color=>Graphics.COLOR_BLACK, :locX=>0, :locY=>0, :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_TINY});
+
+            var rez_cmp_local_text_hRateLabel = new WatchUi.Text({:identifier=>"hRateLabel", :color=>Graphics.COLOR_LT_GRAY, :locX=>10, :locY=>21, :justification=>Graphics.TEXT_JUSTIFY_RIGHT, :font=>Graphics.FONT_TINY});
+
+            var rez_cmp_local_text_hRateValue = new WatchUi.Text({:identifier=>"hRateValue", :color=>Graphics.COLOR_LT_GRAY, :locX=>20, :locY=>21, :justification=>Graphics.TEXT_JUSTIFY_RIGHT, :font=>Graphics.FONT_TINY});
+
+            return [rez_cmp_local_custom_drawable_10614272491194174686, rez_cmp_local_custom_drawable_LauncherIcon, rez_cmp_local_text_directionValue, rez_cmp_local_text_slopeLabel, rez_cmp_local_text_slopeValue, rez_cmp_local_text_celsiusValue, rez_cmp_local_text_batteryLabel, rez_cmp_local_text_batteryValue, rez_cmp_local_text_timeValue, rez_cmp_local_text_hRateLabel, rez_cmp_local_text_hRateValue] as Array<WatchUi.Drawable>;
+        }
+    } // Layouts
+
+    module Menus {
+    } // Menus
+
+    module Strings {
+        (:initialized) var hRateValue as Symbol;
+        (:initialized) var batteryLabel as Symbol;
+        (:initialized) var celsiusLabel as Symbol;
+        (:initialized) var maxHRateValue as Symbol;
+        (:initialized) var slopeLabel as Symbol;
+        (:initialized) var label as Symbol;
+        (:initialized) var timeValue as Symbol;
+        (:initialized) var AppName as Symbol;
+        (:initialized) var hRateLabel as Symbol;
+        (:initialized) var celsiusValue as Symbol;
+        (:initialized) var batteryValue as Symbol;
+        (:initialized) var slopeValue as Symbol;
+        (:initialized) var value as Symbol;
+        (:initialized) var avgHRateValue as Symbol;
+        (:initialized) var directionValue as Symbol;
+    } // Strings
+} // Rez
