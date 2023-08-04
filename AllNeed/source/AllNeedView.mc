@@ -3,6 +3,7 @@ import Toybox.Graphics;
 import Toybox.Lang;
 import Toybox.WatchUi;
 import Toybox.AntPlus;
+import Toybox.Application;
 
 using Toybox.System;
 
@@ -15,6 +16,8 @@ class AllNeedView extends WatchUi.DataField {
 
     var mSystemStats as System.Stats or Null;
 
+    var image as BitmapResource or Null;
+
 
     function initialize() {
         DataField.initialize();
@@ -26,6 +29,7 @@ class AllNeedView extends WatchUi.DataField {
     // Set your layout here. Anytime the size of obscurity of
     // the draw context is changed this will be called.
     function onLayout(dc as Dc) as Void {
+        dc.drawBitmap(20, 80, image);
 
 /*
         // Top left quadrant so we'll use the top left layout
@@ -97,12 +101,15 @@ class AllNeedView extends WatchUi.DataField {
 
 
 
+
+
+
         var timeValue = View.findDrawableById("timeValue") as Text;
         timeValue.locX = screenWidth * 6/totalToplineItemNum;
         //timeValue.locY = timeValue.locY - 16;
         (View.findDrawableById("timeValue") as Text).setText(Rez.Strings.timeValue);
 
-        WatchUi.loadResource(Rez.Drawables.LauncherIcon);
+
     }
 
     // The given info object contains all the current workout information.
@@ -151,6 +158,8 @@ class AllNeedView extends WatchUi.DataField {
         }
         batteryValue.setText(mSystemStats.battery.format("%.d")+"%");
 
+        var icon = Rez.Drawables.battery1Icon;
+        View.findDrawableById("batteryValue").setText("icon");
 
         // Call parent's onUpdate(dc) to redraw the layout
         View.onUpdate(dc);

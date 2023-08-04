@@ -35,7 +35,6 @@
     <!-- For me -->
     <layout id="TopLineLayout">
         <drawable class="Background" />
-        <drawable id="LauncherIcon" />
         <label id="directionValue" x="0" y="0" color="Graphics.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_LEFT" font="Graphics.FONT_TINY" />
         <label id="slopeLabel" x="0" y="0" color="Graphics.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_LEFT" font="Graphics.FONT_TINY" />
         <label id="slopeValue" x="0" y="0" color="Graphics.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_LEFT" font="Graphics.FONT_TINY" />
