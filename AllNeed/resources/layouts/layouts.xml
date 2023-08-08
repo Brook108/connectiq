@@ -45,6 +45,8 @@
 
         <label id="hRateLabel" x="10" y="21" color="Graphics.COLOR_LT_GRAY" justification="Graphics.TEXT_JUSTIFY_RIGHT" font="Graphics.FONT_TINY" />
         <label id="hRateValue" x="20" y="21" color="Graphics.COLOR_LT_GRAY" justification="Graphics.TEXT_JUSTIFY_RIGHT" font="Graphics.FONT_TINY" />
+        <label id="TimeLabel" x="center" y="center" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLUE" />
+
 
 
     </layout>

@@ -8,9 +8,13 @@
     <string id="slopeValue">23%</string>
     <string id="celsiusLabel">°C</string>
     <string id="celsiusValue">°C</string>
-    <string id="batteryLabel">Battery </string>
+    <string id="batteryLabel">Bat </string>
     <string id="batteryValue">90%</string>
     <string id="timeValue">12:00</string>
+
+    <string id="battery100">100%</string>
+    <string id="battery75">75%</string>
+    <string id="battery50">50%</string>
 
     <string id="hRateLabel">HR</string> //当前心率
     <string id="hRateValue">180</string> //当前心率

@@ -21,50 +21,52 @@ module Rez {
         [ @file = "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen"; @line = 9; @position = 27; initialized = true; ]
         var battery1Icon as Symbol;
         [ @file = "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen"; @line = 10; @position = 27; initialized = true; ]
+        var battery50 as Symbol;
+        [ @file = "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen"; @line = 11; @position = 27; initialized = true; ]
         var LauncherIcon as Symbol;
     }
-    [ @file = "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen"; @line = 13; ]
+    [ @file = "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen"; @line = 14; ]
     module Fonts {
-        [ @file = "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen"; @line = 13; ]
+        [ @file = "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen"; @line = 14; ]
         <init> {
         }
     }
-    [ @file = "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen"; @line = 16; ]
+    [ @file = "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen"; @line = 17; ]
     module JsonData {
-        [ @file = "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen"; @line = 16; ]
+        [ @file = "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen"; @line = 17; ]
         <init> {
         }
     }
-    [ @file = "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen"; @line = 19; ]
+    [ @file = "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen"; @line = 20; ]
     module Layouts {
-        [ @file = "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen"; @line = 19; ]
+        [ @file = "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen"; @line = 20; ]
         <init> {
         }
-        [ @file = "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen"; @line = 20; ]
+        [ @file = "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen"; @line = 21; ]
         function MainLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_20_74_start:
-[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 21 12 ]
-            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_20_74_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_20_74_stop" ]
+_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_21_74_start:
+[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 22 12 ]
+            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_21_74_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_21_74_stop" ]
             %rez_cmp_local_var_dc_getHeight.1 = local;
             %tmp.1 = lgetv %dc;
             %tmp.2 = getv function %tmp.1 :getHeight;
             %tmp.3 = invoke %tmp.1 %tmp.2();
             lputv %rez_cmp_local_var_dc_getHeight.1 %tmp.3;
-[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 23 12 ]
-            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_20_74_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_20_74_stop" ]
+[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 24 12 ]
+            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_21_74_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_21_74_stop" ]
             %rez_cmp_local_var_dc_getWidth.2 = local;
             %tmp.4 = lgetv %dc;
             %tmp.5 = getv function %tmp.4 :getWidth;
             %tmp.6 = invoke %tmp.4 %tmp.5();
             lputv %rez_cmp_local_var_dc_getWidth.2 %tmp.6;
-[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 25 12 ]
-            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_20_74_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_20_74_stop" ]
-            %rez_cmp_local_custom_drawable_10808232003270196551.3 = local;
+[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 26 12 ]
+            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_21_74_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_21_74_stop" ]
+            %rez_cmp_local_custom_drawable_17987455171710209473.3 = local;
             %tmp.10 = getv ? :Background;
             %tmp.7 = newc %tmp.10 ();
-            lputv %rez_cmp_local_custom_drawable_10808232003270196551.3 %tmp.7;
-[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 27 12 ]
-            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_20_74_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_20_74_stop" ]
+            lputv %rez_cmp_local_custom_drawable_17987455171710209473.3 %tmp.7;
+[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 28 12 ]
+            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_21_74_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_21_74_stop" ]
             %rez_cmp_local_text_label.4 = local;
             %tmp.13 = getm $.Toybox.WatchUi;
             %tmp.14 = getv function ? %tmp.13 :Text;
@@ -108,8 +110,8 @@ _Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_20_74_st
             %tmp.60 = aputv %tmp.59 %tmp.56 %tmp.58;
             %tmp.11 = newc %tmp.14 (%tmp.60);
             lputv %rez_cmp_local_text_label.4 %tmp.11;
-[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 29 12 ]
-            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_20_74_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_20_74_stop" ]
+[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 30 12 ]
+            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_21_74_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_21_74_stop" ]
             %rez_cmp_local_text_value.5 = local;
             %tmp.63 = getm $.Toybox.WatchUi;
             %tmp.64 = getv function ? %tmp.63 :Text;
@@ -153,8 +155,8 @@ _Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_20_74_st
             %tmp.110 = aputv %tmp.109 %tmp.106 %tmp.108;
             %tmp.61 = newc %tmp.64 (%tmp.110);
             lputv %rez_cmp_local_text_value.5 %tmp.61;
-[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 31 12 ]
-            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_20_74_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_20_74_stop" ]
+[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 32 12 ]
+            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_21_74_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_21_74_stop" ]
             %rez_cmp_local_text_HeartRate.6 = local;
             %tmp.113 = getm $.Toybox.WatchUi;
             %tmp.114 = getv function ? %tmp.113 :Text;
@@ -198,8 +200,8 @@ _Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_20_74_st
             %tmp.160 = aputv %tmp.159 %tmp.156 %tmp.158;
             %tmp.111 = newc %tmp.114 (%tmp.160);
             lputv %rez_cmp_local_text_HeartRate.6 %tmp.111;
-[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 33 12 ]
-            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_20_74_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_20_74_stop" ]
+[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 34 12 ]
+            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_21_74_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_21_74_stop" ]
             %rez_cmp_local_text_MaxHeartRate.7 = local;
             %tmp.163 = getm $.Toybox.WatchUi;
             %tmp.164 = getv function ? %tmp.163 :Text;
@@ -243,9 +245,9 @@ _Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_20_74_st
             %tmp.210 = aputv %tmp.209 %tmp.206 %tmp.208;
             %tmp.161 = newc %tmp.164 (%tmp.210);
             lputv %rez_cmp_local_text_MaxHeartRate.7 %tmp.161;
-[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 35 12 ]
+[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 36 12 ]
             %tmp.211 = newa Array<WatchUi.Drawable> 5;
-            %tmp.213 = lgetv %rez_cmp_local_custom_drawable_10808232003270196551.3;
+            %tmp.213 = lgetv %rez_cmp_local_custom_drawable_17987455171710209473.3;
             %tmp.214 = dup %tmp.211;
             %tmp.215 = aputv %tmp.214 0 %tmp.213;
             %tmp.217 = lgetv %rez_cmp_local_text_label.4;
@@ -261,19 +263,19 @@ _Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_20_74_st
             %tmp.230 = dup %tmp.227;
             %tmp.231 = aputv %tmp.230 4 %tmp.229;
             ret %tmp.231;
-_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_20_74_stop:
+_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_21_74_stop:
         }
-        [ @file = "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen"; @line = 38; ]
+        [ @file = "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen"; @line = 39; ]
         function TopLeftLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_38_77_start:
-[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 39 12 ]
-            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_38_77_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_38_77_stop" ]
-            %rez_cmp_local_custom_drawable_10817831588497944248.1 = local;
+_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_39_77_start:
+[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 40 12 ]
+            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_39_77_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_39_77_stop" ]
+            %rez_cmp_local_custom_drawable_10040510021823475444.1 = local;
             %tmp.4 = getv ? :Background;
             %tmp.1 = newc %tmp.4 ();
-            lputv %rez_cmp_local_custom_drawable_10817831588497944248.1 %tmp.1;
-[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 41 12 ]
-            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_38_77_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_38_77_stop" ]
+            lputv %rez_cmp_local_custom_drawable_10040510021823475444.1 %tmp.1;
+[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 42 12 ]
+            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_39_77_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_39_77_stop" ]
             %rez_cmp_local_text_label.2 = local;
             %tmp.7 = getm $.Toybox.WatchUi;
             %tmp.8 = getv function ? %tmp.7 :Text;
@@ -307,8 +309,8 @@ _Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_38_77_st
             %tmp.42 = aputv %tmp.41 %tmp.38 %tmp.40;
             %tmp.5 = newc %tmp.8 (%tmp.42);
             lputv %rez_cmp_local_text_label.2 %tmp.5;
-[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 43 12 ]
-            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_38_77_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_38_77_stop" ]
+[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 44 12 ]
+            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_39_77_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_39_77_stop" ]
             %rez_cmp_local_text_value.3 = local;
             %tmp.45 = getm $.Toybox.WatchUi;
             %tmp.46 = getv function ? %tmp.45 :Text;
@@ -342,9 +344,9 @@ _Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_38_77_st
             %tmp.80 = aputv %tmp.79 %tmp.76 %tmp.78;
             %tmp.43 = newc %tmp.46 (%tmp.80);
             lputv %rez_cmp_local_text_value.3 %tmp.43;
-[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 45 12 ]
+[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 46 12 ]
             %tmp.81 = newa Array<WatchUi.Drawable> 3;
-            %tmp.83 = lgetv %rez_cmp_local_custom_drawable_10817831588497944248.1;
+            %tmp.83 = lgetv %rez_cmp_local_custom_drawable_10040510021823475444.1;
             %tmp.84 = dup %tmp.81;
             %tmp.85 = aputv %tmp.84 0 %tmp.83;
             %tmp.87 = lgetv %rez_cmp_local_text_label.2;
@@ -354,19 +356,19 @@ _Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_38_77_st
             %tmp.92 = dup %tmp.89;
             %tmp.93 = aputv %tmp.92 2 %tmp.91;
             ret %tmp.93;
-_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_38_77_stop:
+_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_39_77_stop:
         }
-        [ @file = "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen"; @line = 48; ]
+        [ @file = "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen"; @line = 49; ]
         function TopRightLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_48_78_start:
-[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 49 12 ]
-            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_48_78_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_48_78_stop" ]
-            %rez_cmp_local_custom_drawable_18921730452050453810.1 = local;
+_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_49_78_start:
+[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 50 12 ]
+            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_49_78_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_49_78_stop" ]
+            %rez_cmp_local_custom_drawable_17877864831818204878.1 = local;
             %tmp.4 = getv ? :Background;
             %tmp.1 = newc %tmp.4 ();
-            lputv %rez_cmp_local_custom_drawable_18921730452050453810.1 %tmp.1;
-[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 51 12 ]
-            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_48_78_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_48_78_stop" ]
+            lputv %rez_cmp_local_custom_drawable_17877864831818204878.1 %tmp.1;
+[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 52 12 ]
+            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_49_78_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_49_78_stop" ]
             %rez_cmp_local_text_label.2 = local;
             %tmp.7 = getm $.Toybox.WatchUi;
             %tmp.8 = getv function ? %tmp.7 :Text;
@@ -400,8 +402,8 @@ _Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_48_78_st
             %tmp.42 = aputv %tmp.41 %tmp.38 %tmp.40;
             %tmp.5 = newc %tmp.8 (%tmp.42);
             lputv %rez_cmp_local_text_label.2 %tmp.5;
-[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 53 12 ]
-            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_48_78_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_48_78_stop" ]
+[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 54 12 ]
+            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_49_78_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_49_78_stop" ]
             %rez_cmp_local_text_value.3 = local;
             %tmp.45 = getm $.Toybox.WatchUi;
             %tmp.46 = getv function ? %tmp.45 :Text;
@@ -435,9 +437,9 @@ _Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_48_78_st
             %tmp.80 = aputv %tmp.79 %tmp.76 %tmp.78;
             %tmp.43 = newc %tmp.46 (%tmp.80);
             lputv %rez_cmp_local_text_value.3 %tmp.43;
-[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 55 12 ]
+[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 56 12 ]
             %tmp.81 = newa Array<WatchUi.Drawable> 3;
-            %tmp.83 = lgetv %rez_cmp_local_custom_drawable_18921730452050453810.1;
+            %tmp.83 = lgetv %rez_cmp_local_custom_drawable_17877864831818204878.1;
             %tmp.84 = dup %tmp.81;
             %tmp.85 = aputv %tmp.84 0 %tmp.83;
             %tmp.87 = lgetv %rez_cmp_local_text_label.2;
@@ -447,19 +449,19 @@ _Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_48_78_st
             %tmp.92 = dup %tmp.89;
             %tmp.93 = aputv %tmp.92 2 %tmp.91;
             ret %tmp.93;
-_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_48_78_stop:
+_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_49_78_stop:
         }
-        [ @file = "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen"; @line = 58; ]
+        [ @file = "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen"; @line = 59; ]
         function BottomLeftLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_58_80_start:
-[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 59 12 ]
-            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_58_80_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_58_80_stop" ]
-            %rez_cmp_local_custom_drawable_17779914371287133745.1 = local;
+_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_59_80_start:
+[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 60 12 ]
+            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_59_80_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_59_80_stop" ]
+            %rez_cmp_local_custom_drawable_21209264131613838422.1 = local;
             %tmp.4 = getv ? :Background;
             %tmp.1 = newc %tmp.4 ();
-            lputv %rez_cmp_local_custom_drawable_17779914371287133745.1 %tmp.1;
-[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 61 12 ]
-            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_58_80_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_58_80_stop" ]
+            lputv %rez_cmp_local_custom_drawable_21209264131613838422.1 %tmp.1;
+[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 62 12 ]
+            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_59_80_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_59_80_stop" ]
             %rez_cmp_local_text_label.2 = local;
             %tmp.7 = getm $.Toybox.WatchUi;
             %tmp.8 = getv function ? %tmp.7 :Text;
@@ -493,8 +495,8 @@ _Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_58_80_st
             %tmp.42 = aputv %tmp.41 %tmp.38 %tmp.40;
             %tmp.5 = newc %tmp.8 (%tmp.42);
             lputv %rez_cmp_local_text_label.2 %tmp.5;
-[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 63 12 ]
-            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_58_80_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_58_80_stop" ]
+[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 64 12 ]
+            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_59_80_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_59_80_stop" ]
             %rez_cmp_local_text_value.3 = local;
             %tmp.45 = getm $.Toybox.WatchUi;
             %tmp.46 = getv function ? %tmp.45 :Text;
@@ -528,9 +530,9 @@ _Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_58_80_st
             %tmp.80 = aputv %tmp.79 %tmp.76 %tmp.78;
             %tmp.43 = newc %tmp.46 (%tmp.80);
             lputv %rez_cmp_local_text_value.3 %tmp.43;
-[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 65 12 ]
+[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 66 12 ]
             %tmp.81 = newa Array<WatchUi.Drawable> 3;
-            %tmp.83 = lgetv %rez_cmp_local_custom_drawable_17779914371287133745.1;
+            %tmp.83 = lgetv %rez_cmp_local_custom_drawable_21209264131613838422.1;
             %tmp.84 = dup %tmp.81;
             %tmp.85 = aputv %tmp.84 0 %tmp.83;
             %tmp.87 = lgetv %rez_cmp_local_text_label.2;
@@ -540,19 +542,19 @@ _Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_58_80_st
             %tmp.92 = dup %tmp.89;
             %tmp.93 = aputv %tmp.92 2 %tmp.91;
             ret %tmp.93;
-_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_58_80_stop:
+_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_59_80_stop:
         }
-        [ @file = "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen"; @line = 68; ]
+        [ @file = "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen"; @line = 69; ]
         function BottomRightLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_68_81_start:
-[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 69 12 ]
-            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_68_81_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_68_81_stop" ]
-            %rez_cmp_local_custom_drawable_18045534089375196501.1 = local;
+_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_69_81_start:
+[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 70 12 ]
+            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_69_81_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_69_81_stop" ]
+            %rez_cmp_local_custom_drawable_62046314110213006781.1 = local;
             %tmp.4 = getv ? :Background;
             %tmp.1 = newc %tmp.4 ();
-            lputv %rez_cmp_local_custom_drawable_18045534089375196501.1 %tmp.1;
-[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 71 12 ]
-            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_68_81_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_68_81_stop" ]
+            lputv %rez_cmp_local_custom_drawable_62046314110213006781.1 %tmp.1;
+[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 72 12 ]
+            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_69_81_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_69_81_stop" ]
             %rez_cmp_local_text_label.2 = local;
             %tmp.7 = getm $.Toybox.WatchUi;
             %tmp.8 = getv function ? %tmp.7 :Text;
@@ -586,8 +588,8 @@ _Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_68_81_st
             %tmp.42 = aputv %tmp.41 %tmp.38 %tmp.40;
             %tmp.5 = newc %tmp.8 (%tmp.42);
             lputv %rez_cmp_local_text_label.2 %tmp.5;
-[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 73 12 ]
-            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_68_81_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_68_81_stop" ]
+[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 74 12 ]
+            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_69_81_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_69_81_stop" ]
             %rez_cmp_local_text_value.3 = local;
             %tmp.45 = getm $.Toybox.WatchUi;
             %tmp.46 = getv function ? %tmp.45 :Text;
@@ -621,9 +623,9 @@ _Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_68_81_st
             %tmp.80 = aputv %tmp.79 %tmp.76 %tmp.78;
             %tmp.43 = newc %tmp.46 (%tmp.80);
             lputv %rez_cmp_local_text_value.3 %tmp.43;
-[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 75 12 ]
+[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 76 12 ]
             %tmp.81 = newa Array<WatchUi.Drawable> 3;
-            %tmp.83 = lgetv %rez_cmp_local_custom_drawable_18045534089375196501.1;
+            %tmp.83 = lgetv %rez_cmp_local_custom_drawable_62046314110213006781.1;
             %tmp.84 = dup %tmp.81;
             %tmp.85 = aputv %tmp.84 0 %tmp.83;
             %tmp.87 = lgetv %rez_cmp_local_text_label.2;
@@ -633,19 +635,19 @@ _Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_68_81_st
             %tmp.92 = dup %tmp.89;
             %tmp.93 = aputv %tmp.92 2 %tmp.91;
             ret %tmp.93;
-_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_68_81_stop:
+_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_69_81_stop:
         }
-        [ @file = "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen"; @line = 78; ]
+        [ @file = "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen"; @line = 79; ]
         function TopLineLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_78_77_start:
-[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 79 12 ]
-            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_78_77_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_78_77_stop" ]
-            %rez_cmp_local_custom_drawable_13830476011985068164.1 = local;
+_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_79_77_start:
+[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 80 12 ]
+            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_79_77_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_79_77_stop" ]
+            %rez_cmp_local_custom_drawable_11745176341513899187.1 = local;
             %tmp.4 = getv ? :Background;
             %tmp.1 = newc %tmp.4 ();
-            lputv %rez_cmp_local_custom_drawable_13830476011985068164.1 %tmp.1;
-[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 81 12 ]
-            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_78_77_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_78_77_stop" ]
+            lputv %rez_cmp_local_custom_drawable_11745176341513899187.1 %tmp.1;
+[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 82 12 ]
+            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_79_77_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_79_77_stop" ]
             %rez_cmp_local_text_directionValue.2 = local;
             %tmp.7 = getm $.Toybox.WatchUi;
             %tmp.8 = getv function ? %tmp.7 :Text;
@@ -679,8 +681,8 @@ _Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_78_77_st
             %tmp.42 = aputv %tmp.41 %tmp.38 %tmp.40;
             %tmp.5 = newc %tmp.8 (%tmp.42);
             lputv %rez_cmp_local_text_directionValue.2 %tmp.5;
-[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 83 12 ]
-            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_78_77_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_78_77_stop" ]
+[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 84 12 ]
+            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_79_77_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_79_77_stop" ]
             %rez_cmp_local_text_slopeLabel.3 = local;
             %tmp.45 = getm $.Toybox.WatchUi;
             %tmp.46 = getv function ? %tmp.45 :Text;
@@ -714,8 +716,8 @@ _Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_78_77_st
             %tmp.80 = aputv %tmp.79 %tmp.76 %tmp.78;
             %tmp.43 = newc %tmp.46 (%tmp.80);
             lputv %rez_cmp_local_text_slopeLabel.3 %tmp.43;
-[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 85 12 ]
-            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_78_77_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_78_77_stop" ]
+[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 86 12 ]
+            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_79_77_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_79_77_stop" ]
             %rez_cmp_local_text_slopeValue.4 = local;
             %tmp.83 = getm $.Toybox.WatchUi;
             %tmp.84 = getv function ? %tmp.83 :Text;
@@ -749,8 +751,8 @@ _Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_78_77_st
             %tmp.118 = aputv %tmp.117 %tmp.114 %tmp.116;
             %tmp.81 = newc %tmp.84 (%tmp.118);
             lputv %rez_cmp_local_text_slopeValue.4 %tmp.81;
-[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 87 12 ]
-            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_78_77_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_78_77_stop" ]
+[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 88 12 ]
+            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_79_77_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_79_77_stop" ]
             %rez_cmp_local_text_celsiusValue.5 = local;
             %tmp.121 = getm $.Toybox.WatchUi;
             %tmp.122 = getv function ? %tmp.121 :Text;
@@ -784,8 +786,8 @@ _Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_78_77_st
             %tmp.156 = aputv %tmp.155 %tmp.152 %tmp.154;
             %tmp.119 = newc %tmp.122 (%tmp.156);
             lputv %rez_cmp_local_text_celsiusValue.5 %tmp.119;
-[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 89 12 ]
-            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_78_77_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_78_77_stop" ]
+[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 90 12 ]
+            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_79_77_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_79_77_stop" ]
             %rez_cmp_local_text_batteryLabel.6 = local;
             %tmp.159 = getm $.Toybox.WatchUi;
             %tmp.160 = getv function ? %tmp.159 :Text;
@@ -819,8 +821,8 @@ _Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_78_77_st
             %tmp.194 = aputv %tmp.193 %tmp.190 %tmp.192;
             %tmp.157 = newc %tmp.160 (%tmp.194);
             lputv %rez_cmp_local_text_batteryLabel.6 %tmp.157;
-[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 91 12 ]
-            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_78_77_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_78_77_stop" ]
+[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 92 12 ]
+            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_79_77_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_79_77_stop" ]
             %rez_cmp_local_text_batteryValue.7 = local;
             %tmp.197 = getm $.Toybox.WatchUi;
             %tmp.198 = getv function ? %tmp.197 :Text;
@@ -854,8 +856,8 @@ _Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_78_77_st
             %tmp.232 = aputv %tmp.231 %tmp.228 %tmp.230;
             %tmp.195 = newc %tmp.198 (%tmp.232);
             lputv %rez_cmp_local_text_batteryValue.7 %tmp.195;
-[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 93 12 ]
-            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_78_77_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_78_77_stop" ]
+[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 94 12 ]
+            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_79_77_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_79_77_stop" ]
             %rez_cmp_local_text_timeValue.8 = local;
             %tmp.235 = getm $.Toybox.WatchUi;
             %tmp.236 = getv function ? %tmp.235 :Text;
@@ -889,8 +891,8 @@ _Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_78_77_st
             %tmp.270 = aputv %tmp.269 %tmp.266 %tmp.268;
             %tmp.233 = newc %tmp.236 (%tmp.270);
             lputv %rez_cmp_local_text_timeValue.8 %tmp.233;
-[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 95 12 ]
-            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_78_77_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_78_77_stop" ]
+[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 96 12 ]
+            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_79_77_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_79_77_stop" ]
             %rez_cmp_local_text_hRateLabel.9 = local;
             %tmp.273 = getm $.Toybox.WatchUi;
             %tmp.274 = getv function ? %tmp.273 :Text;
@@ -924,8 +926,8 @@ _Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_78_77_st
             %tmp.308 = aputv %tmp.307 %tmp.304 %tmp.306;
             %tmp.271 = newc %tmp.274 (%tmp.308);
             lputv %rez_cmp_local_text_hRateLabel.9 %tmp.271;
-[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 97 12 ]
-            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_78_77_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_78_77_stop" ]
+[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 98 12 ]
+            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_79_77_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_79_77_stop" ]
             %rez_cmp_local_text_hRateValue.10 = local;
             %tmp.311 = getm $.Toybox.WatchUi;
             %tmp.312 = getv function ? %tmp.311 :Text;
@@ -959,82 +961,140 @@ _Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_78_77_st
             %tmp.346 = aputv %tmp.345 %tmp.342 %tmp.344;
             %tmp.309 = newc %tmp.312 (%tmp.346);
             lputv %rez_cmp_local_text_hRateValue.10 %tmp.309;
-[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 99 12 ]
-            %tmp.347 = newa Array<WatchUi.Drawable> 10;
-            %tmp.349 = lgetv %rez_cmp_local_custom_drawable_13830476011985068164.1;
-            %tmp.350 = dup %tmp.347;
-            %tmp.351 = aputv %tmp.350 0 %tmp.349;
-            %tmp.353 = lgetv %rez_cmp_local_text_directionValue.2;
-            %tmp.354 = dup %tmp.351;
-            %tmp.355 = aputv %tmp.354 1 %tmp.353;
-            %tmp.357 = lgetv %rez_cmp_local_text_slopeLabel.3;
-            %tmp.358 = dup %tmp.355;
-            %tmp.359 = aputv %tmp.358 2 %tmp.357;
-            %tmp.361 = lgetv %rez_cmp_local_text_slopeValue.4;
-            %tmp.362 = dup %tmp.359;
-            %tmp.363 = aputv %tmp.362 3 %tmp.361;
-            %tmp.365 = lgetv %rez_cmp_local_text_celsiusValue.5;
-            %tmp.366 = dup %tmp.363;
-            %tmp.367 = aputv %tmp.366 4 %tmp.365;
-            %tmp.369 = lgetv %rez_cmp_local_text_batteryLabel.6;
-            %tmp.370 = dup %tmp.367;
-            %tmp.371 = aputv %tmp.370 5 %tmp.369;
-            %tmp.373 = lgetv %rez_cmp_local_text_batteryValue.7;
-            %tmp.374 = dup %tmp.371;
-            %tmp.375 = aputv %tmp.374 6 %tmp.373;
-            %tmp.377 = lgetv %rez_cmp_local_text_timeValue.8;
-            %tmp.378 = dup %tmp.375;
-            %tmp.379 = aputv %tmp.378 7 %tmp.377;
-            %tmp.381 = lgetv %rez_cmp_local_text_hRateLabel.9;
-            %tmp.382 = dup %tmp.379;
-            %tmp.383 = aputv %tmp.382 8 %tmp.381;
-            %tmp.385 = lgetv %rez_cmp_local_text_hRateValue.10;
-            %tmp.386 = dup %tmp.383;
-            %tmp.387 = aputv %tmp.386 9 %tmp.385;
-            ret %tmp.387;
-_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_78_77_stop:
-        }
-    }
-    [ @file = "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen"; @line = 103; ]
-    module Menus {
-        [ @file = "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen"; @line = 103; ]
-        <init> {
+[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 100 12 ]
+            [ "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_79_77_start" "_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_79_77_stop" ]
+            %rez_cmp_local_text_TimeLabel.11 = local;
+            %tmp.349 = getm $.Toybox.WatchUi;
+            %tmp.350 = getv function ? %tmp.349 :Text;
+            %tmp.351 = newd 6;
+            %tmp.353 = const :identifier;
+            %tmp.354 = "TimeLabel";
+            %tmp.355 = dup %tmp.351;
+            %tmp.356 = aputv %tmp.355 %tmp.353 %tmp.354;
+            %tmp.358 = const :color;
+            %tmp.359 = getm $.Toybox.Graphics;
+            %tmp.360 = getv %tmp.359 :COLOR_BLUE;
+            %tmp.361 = dup %tmp.356;
+            %tmp.362 = aputv %tmp.361 %tmp.358 %tmp.360;
+            %tmp.364 = const :locX;
+            %tmp.365 = lgetv %dc;
+            %tmp.366 = getv function %tmp.365 :getWidth;
+            %tmp.367 = invoke %tmp.365 %tmp.366();
+            %tmp.368 = 0.5;
+            %tmp.369 = mul %tmp.367 %tmp.368;
+            %tmp.370 = dup %tmp.362;
+            %tmp.371 = aputv %tmp.370 %tmp.364 %tmp.369;
+            %tmp.373 = const :locY;
+            %tmp.374 = lgetv %dc;
+            %tmp.375 = getv function %tmp.374 :getHeight;
+            %tmp.376 = invoke %tmp.374 %tmp.375();
+            %tmp.377 = lgetv %dc;
+            %tmp.378 = getv function %tmp.377 :getFontHeight;
+            %tmp.379 = getm $.Toybox.Graphics;
+            %tmp.380 = getv %tmp.379 :FONT_LARGE;
+            %tmp.381 = invoke %tmp.377 %tmp.378(%tmp.380);
+            %tmp.382 = sub %tmp.376 %tmp.381;
+            %tmp.383 = 0.5;
+            %tmp.384 = mul %tmp.382 %tmp.383;
+            %tmp.385 = dup %tmp.371;
+            %tmp.386 = aputv %tmp.385 %tmp.373 %tmp.384;
+            %tmp.388 = const :justification;
+            %tmp.389 = getm $.Toybox.Graphics;
+            %tmp.390 = getv %tmp.389 :TEXT_JUSTIFY_CENTER;
+            %tmp.391 = dup %tmp.386;
+            %tmp.392 = aputv %tmp.391 %tmp.388 %tmp.390;
+            %tmp.394 = const :font;
+            %tmp.395 = getm $.Toybox.Graphics;
+            %tmp.396 = getv %tmp.395 :FONT_LARGE;
+            %tmp.397 = dup %tmp.392;
+            %tmp.398 = aputv %tmp.397 %tmp.394 %tmp.396;
+            %tmp.347 = newc %tmp.350 (%tmp.398);
+            lputv %rez_cmp_local_text_TimeLabel.11 %tmp.347;
+[ "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" 102 12 ]
+            %tmp.399 = newa Array<WatchUi.Drawable> 11;
+            %tmp.401 = lgetv %rez_cmp_local_custom_drawable_11745176341513899187.1;
+            %tmp.402 = dup %tmp.399;
+            %tmp.403 = aputv %tmp.402 0 %tmp.401;
+            %tmp.405 = lgetv %rez_cmp_local_text_directionValue.2;
+            %tmp.406 = dup %tmp.403;
+            %tmp.407 = aputv %tmp.406 1 %tmp.405;
+            %tmp.409 = lgetv %rez_cmp_local_text_slopeLabel.3;
+            %tmp.410 = dup %tmp.407;
+            %tmp.411 = aputv %tmp.410 2 %tmp.409;
+            %tmp.413 = lgetv %rez_cmp_local_text_slopeValue.4;
+            %tmp.414 = dup %tmp.411;
+            %tmp.415 = aputv %tmp.414 3 %tmp.413;
+            %tmp.417 = lgetv %rez_cmp_local_text_celsiusValue.5;
+            %tmp.418 = dup %tmp.415;
+            %tmp.419 = aputv %tmp.418 4 %tmp.417;
+            %tmp.421 = lgetv %rez_cmp_local_text_batteryLabel.6;
+            %tmp.422 = dup %tmp.419;
+            %tmp.423 = aputv %tmp.422 5 %tmp.421;
+            %tmp.425 = lgetv %rez_cmp_local_text_batteryValue.7;
+            %tmp.426 = dup %tmp.423;
+            %tmp.427 = aputv %tmp.426 6 %tmp.425;
+            %tmp.429 = lgetv %rez_cmp_local_text_timeValue.8;
+            %tmp.430 = dup %tmp.427;
+            %tmp.431 = aputv %tmp.430 7 %tmp.429;
+            %tmp.433 = lgetv %rez_cmp_local_text_hRateLabel.9;
+            %tmp.434 = dup %tmp.431;
+            %tmp.435 = aputv %tmp.434 8 %tmp.433;
+            %tmp.437 = lgetv %rez_cmp_local_text_hRateValue.10;
+            %tmp.438 = dup %tmp.435;
+            %tmp.439 = aputv %tmp.438 9 %tmp.437;
+            %tmp.441 = lgetv %rez_cmp_local_text_TimeLabel.11;
+            %tmp.442 = dup %tmp.439;
+            %tmp.443 = aputv %tmp.442 10 %tmp.441;
+            ret %tmp.443;
+_Users_xu_study_connectiq_AllNeed_bin_gen_006_B3122_00_source_Rez_mcgen_79_77_stop:
         }
     }
     [ @file = "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen"; @line = 106; ]
-    module Strings {
+    module Menus {
         [ @file = "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen"; @line = 106; ]
         <init> {
         }
-        [ @file = "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen"; @line = 107; @position = 27; initialized = true; ]
-        var hRateValue as Symbol;
-        [ @file = "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen"; @line = 108; @position = 27; initialized = true; ]
-        var batteryLabel as Symbol;
-        [ @file = "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen"; @line = 109; @position = 27; initialized = true; ]
-        var celsiusLabel as Symbol;
+    }
+    [ @file = "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen"; @line = 109; ]
+    module Strings {
+        [ @file = "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen"; @line = 109; ]
+        <init> {
+        }
         [ @file = "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen"; @line = 110; @position = 27; initialized = true; ]
-        var maxHRateValue as Symbol;
+        var hRateValue as Symbol;
         [ @file = "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen"; @line = 111; @position = 27; initialized = true; ]
-        var slopeLabel as Symbol;
+        var batteryLabel as Symbol;
         [ @file = "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen"; @line = 112; @position = 27; initialized = true; ]
-        var label as Symbol;
+        var celsiusLabel as Symbol;
         [ @file = "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen"; @line = 113; @position = 27; initialized = true; ]
-        var timeValue as Symbol;
+        var battery75 as Symbol;
         [ @file = "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen"; @line = 114; @position = 27; initialized = true; ]
-        var AppName as Symbol;
+        var maxHRateValue as Symbol;
         [ @file = "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen"; @line = 115; @position = 27; initialized = true; ]
-        var hRateLabel as Symbol;
+        var slopeLabel as Symbol;
         [ @file = "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen"; @line = 116; @position = 27; initialized = true; ]
-        var celsiusValue as Symbol;
+        var battery50 as Symbol;
         [ @file = "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen"; @line = 117; @position = 27; initialized = true; ]
-        var batteryValue as Symbol;
+        var label as Symbol;
         [ @file = "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen"; @line = 118; @position = 27; initialized = true; ]
-        var slopeValue as Symbol;
+        var timeValue as Symbol;
         [ @file = "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen"; @line = 119; @position = 27; initialized = true; ]
-        var value as Symbol;
+        var AppName as Symbol;
         [ @file = "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen"; @line = 120; @position = 27; initialized = true; ]
-        var avgHRateValue as Symbol;
+        var hRateLabel as Symbol;
         [ @file = "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen"; @line = 121; @position = 27; initialized = true; ]
+        var celsiusValue as Symbol;
+        [ @file = "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen"; @line = 122; @position = 27; initialized = true; ]
+        var batteryValue as Symbol;
+        [ @file = "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen"; @line = 123; @position = 27; initialized = true; ]
+        var slopeValue as Symbol;
+        [ @file = "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen"; @line = 124; @position = 27; initialized = true; ]
+        var battery100 as Symbol;
+        [ @file = "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen"; @line = 125; @position = 27; initialized = true; ]
+        var value as Symbol;
+        [ @file = "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen"; @line = 126; @position = 27; initialized = true; ]
+        var avgHRateValue as Symbol;
+        [ @file = "/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen"; @line = 127; @position = 27; initialized = true; ]
         var directionValue as Symbol;
     }
 }

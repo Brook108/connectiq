@@ -5,31 +5,42 @@ import Toybox.WatchUi;
 import Toybox.AntPlus;
 import Toybox.Application;
 
+
 using Toybox.System;
 
 
 class AllNeedView extends WatchUi.DataField {
 
     hidden var mHeartRate as Numeric;
-    hidden var mBatteryNum as Numeric;
-    //var mSystemStats = System.getSystemStats();
+    //hidden var mBatteryNum as Numeric;
+    var mBatteryNum = 0 as AntPlus.BatteryStatusValue;
 
-    var mSystemStats as System.Stats or Null;
+    var mSystemStats = System.getSystemStats();
 
-    var image as BitmapResource or Null;
+    //var mSystemStats as System.Stats or Null;
+
+    hidden var image as BitmapResource or Null;
+
+    hidden var mBlablabla1;
+    var myBitmap;
+    var mBattery50Icon;
+
 
 
     function initialize() {
         DataField.initialize();
         mHeartRate = 0.0f;
         mBatteryNum = 0;
-
+        mBattery50Icon = new WatchUi.Bitmap({
+            :rezId=>Rez.Drawables.battery50,
+            :locX=>10,
+            :locY=>30
+        });
     }
 
     // Set your layout here. Anytime the size of obscurity of
     // the draw context is changed this will be called.
     function onLayout(dc as Dc) as Void {
-        dc.drawBitmap(20, 80, image);
 
 /*
         // Top left quadrant so we'll use the top left layout
@@ -58,8 +69,12 @@ class AllNeedView extends WatchUi.DataField {
             valueView.locY = valueView.locY + 7;
         }
         (View.findDrawableById("lable") as Text).setText(Rez.Strings.label);
-        */
 
+
+
+
+*/
+/*
         View.setLayout(Rez.Layouts.TopLineLayout(dc));
         var screenWidth = dc.getWidth();
         var screenHeight = dc.getHeight();
@@ -90,26 +105,13 @@ class AllNeedView extends WatchUi.DataField {
         celsiusValue.locX = screenWidth* 3/totalToplineItemNum;
         (View.findDrawableById("celsiusValue") as Text).setText(Rez.Strings.celsiusValue);
 
-        //View.findDrawableById("batteryLabel").setIcon(icon);
-        var batteryLabel = View.findDrawableById("batteryLabel") as Text;
-        batteryLabel.locX = screenWidth * 4/totalToplineItemNum;
-        (View.findDrawableById("batteryLabel") as Text).setText(Rez.Strings.batteryLabel);
-
-        var batteryValue= View.findDrawableById("batteryValue") as Text;
-        batteryValue.locX = screenWidth * 5/totalToplineItemNum;
-        (View.findDrawableById("batteryValue") as Text).setText(Rez.Strings.batteryValue);
-
-
-
-
-
+                //dc.drawLine(batteryLabel.locX-2, 0, batteryValue.locX-2, 20);
 
         var timeValue = View.findDrawableById("timeValue") as Text;
         timeValue.locX = screenWidth * 6/totalToplineItemNum;
         //timeValue.locY = timeValue.locY - 16;
         (View.findDrawableById("timeValue") as Text).setText(Rez.Strings.timeValue);
-
-
+        */
     }
 
     // The given info object contains all the current workout information.
@@ -127,42 +129,97 @@ class AllNeedView extends WatchUi.DataField {
         }
 
         //get battery 
-        //System.print(AntPlus.BatteryStatus.batteryInDays);
+        System.println("batter:" + mSystemStats.battery);
+
         
     }
 
     // Display the value you computed here. This will be called
     // once a second when the data field is visible.
     function onUpdate(dc as Dc) as Void {
-        // Set the background color
-        (View.findDrawableById("Background") as Text).setColor(getBackgroundColor());
+        //var banana = WatchUi.loadResource(Rez.Drawables.battery1Icon);
+        //dc.drawBitmap(50,100,banana);
+        //dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
+        //dc.fillRectangle(50,0,100,20);
+        View.setLayout(Rez.Layouts.TopLineLayout(dc));
+        var screenWidth = dc.getWidth();
+        var screenHeight = dc.getHeight();
+        var totalToplineItemNum = 7;
 
-        // Set the foreground color and value
-        var hRateVal = View.findDrawableById("hRateValue") as Text;
-        if (getBackgroundColor() == Graphics.COLOR_BLACK) {
-            hRateVal.setColor(Graphics.COLOR_WHITE);
-        } else {
-            hRateVal.setColor(Graphics.COLOR_BLACK);
-        }
-        hRateVal.setText(mHeartRate.format("%.2f"));
+        var directionValue = View.findDrawableById("directionValue") as Text;
+        directionValue.locX = 0; 
+        (View.findDrawableById("directionValue") as Text).setText(Rez.Strings.directionValue);
 
-        //Set battery color and value
-        mSystemStats = System.getSystemStats();
-        System.println(mSystemStats.battery);
+        var slopeLabel = View.findDrawableById("slopeLabel") as Text;
+        slopeLabel.locX = screenWidth * (0.5/totalToplineItemNum);
+        (View.findDrawableById("slopeLabel") as Text).setText(Rez.Strings.slopeLabel);
+
+        var slopeValue = View.findDrawableById("slopeValue") as Text;
+        //slopeValue.locX = View.findDrawableById("slopeLabel").width;
+        System.print("#0:"); 
+        System.print(slopeValue.locX); 
+        System.print("#1:"); 
+        System.print(View.findDrawableById("slopeLabel").width);
+        System.print("#end"); 
+        //slopeValue.locX = slopeLabel.locX + View.findDrawableById("slopeLabel").width;
+        System.print(dc.getTextWidthInPixels("Slope", Graphics.FONT_TINY));
+        //slopeValue.locX = slopeLabel.locX + dc.getTextWidthInPixels("Slope", Graphics.FONT_TINY);
+        slopeValue.locX = slopeLabel.locX + 30;
+        (View.findDrawableById("slopeValue") as Text).setText(Rez.Strings.slopeValue);
+
+        var celsiusValue= View.findDrawableById("celsiusValue") as Text;
+        celsiusValue.locX = screenWidth* 3/totalToplineItemNum;
+        (View.findDrawableById("celsiusValue") as Text).setText(Rez.Strings.celsiusValue);
+
+        var batteryLabel= View.findDrawableById("batteryLabel") as Text;
+        batteryLabel.locX = screenWidth* 4/totalToplineItemNum;
+        batteryLabel.setColor(0xADFF2F);
+
+        //var banana = WatchUi.loadResource(Rez.Drawables.battery50);
+        //batteryLabel.drawBitmap(batteryLabel.locX, batteryLabel.locY, banana);
+        batteryLabel.draw(dc);
+        //batteryLabel.drawText(batteryLabel.locX, batteryLabel.locY, Graphics.FONT_TINY, mSystemStats.battery.toLong().toString(), Graphics.TEXT_JUSTIFY_LEFT);
+        //batteryLabel.setColor(0xADFF2F);
+        //batteryLabel.setText(mSystemStats.battery.toLong().toString());
+
+        //batteryLabel.setBackgroundColor(Graphics.COLOR_GREEN);
+        //View.findDrawableById("batteryLabel").setBitmap(0,0,battery50);
 
         var batteryValue = View.findDrawableById("batteryValue") as Text;
-        if (getBackgroundColor() == Graphics.COLOR_BLACK) {
-            batteryValue.setColor(Graphics.COLOR_WHITE);
-        } else {
-            batteryValue.setColor(Graphics.COLOR_BLACK);
+        batteryValue.locX = screenWidth* 5/totalToplineItemNum;
+        batteryValue.setText(mSystemStats.battery.toLong().toString() + "%");
+        batteryValue.setColor(Graphics.COLOR_BLACK);
+        if (mSystemStats.battery > 80) {
+            batteryValue.setBackgroundColor(Graphics.COLOR_GREEN);
+        } else if(mSystemStats.battery<=80 && mSystemStats.battery>60) {
+            batteryValue.setBackgroundColor(Graphics.COLOR_BLUE);
+        } else if(mSystemStats.battery<=60 && mSystemStats.battery>40) {
+            batteryValue.setBackgroundColor(0x001000);
         }
-        batteryValue.setText(mSystemStats.battery.format("%.d")+"%");
 
-        var icon = Rez.Drawables.battery1Icon;
-        View.findDrawableById("batteryValue").setText("icon");
+        var clockTime = System.getClockTime();
+        var timeString = Lang.format(
+            "$1$:$2$",
+            [clockTime.hour, clockTime.min.format("%02d")]
+        );
+        var view = View.findDrawableById("TimeLabel") as Text;
+        view.setText(timeString);
+        //dc.drawLine(batteryLabel.locX-2, 0, batteryValue.locX-2, 20);
 
-        // Call parent's onUpdate(dc) to redraw the layout
+        var timeValue = View.findDrawableById("timeValue") as Text;
+        timeValue.locX = screenWidth * 6/totalToplineItemNum;
+        //timeValue.locY = timeValue.locY - 16;
+        (View.findDrawableById("timeValue") as Text).setText(Rez.Strings.timeValue);
         View.onUpdate(dc);
+        //dc.setColor(Graphics.COLOR_GREEN, Graphics.COLOR_TRANSPARENT);
+        //dc.fillRectangle(batteryValue.locX,batteryValue.locY/3,15,8);
+        /*
+        var banana = WatchUi.loadResource(Rez.Drawables.battery50);
+        dc.drawBitmap(batteryLabel.locX, batteryLabel.locY, banana);
+        dc.drawText(batteryLabel.locX, batteryLabel.locY, Graphics.FONT_TINY, mSystemStats.battery.toLong().toString(), Graphics.TEXT_JUSTIFY_LEFT);
+        batteryLabel.setColor(0xADFF2F);
+        */
+        mBattery50Icon.draw(dc);
     }
 
 }

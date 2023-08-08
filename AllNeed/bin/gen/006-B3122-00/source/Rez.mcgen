@@ -7,6 +7,7 @@ using Toybox.Graphics as Gfx;
 module Rez {
     module Drawables {
         (:initialized) var battery1Icon as Symbol;
+        (:initialized) var battery50 as Symbol;
         (:initialized) var LauncherIcon as Symbol;
     } // Drawables
 
@@ -22,7 +23,7 @@ module Rez {
 
             var rez_cmp_local_var_dc_getWidth = dc.getWidth();
 
-            var rez_cmp_local_custom_drawable_10808232003270196551 = new Background();
+            var rez_cmp_local_custom_drawable_17987455171710209473 = new Background();
 
             var rez_cmp_local_text_label = new WatchUi.Text({:identifier=>"label", :color=>Graphics.COLOR_LT_GRAY, :locX=>(rez_cmp_local_var_dc_getWidth * 0.5), :locY=>((rez_cmp_local_var_dc_getHeight - dc.getFontHeight(Graphics.FONT_TINY)) * 0.5), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_TINY});
 
@@ -32,51 +33,51 @@ module Rez {
 
             var rez_cmp_local_text_MaxHeartRate = new WatchUi.Text({:identifier=>"MaxHeartRate", :color=>Graphics.COLOR_WHITE, :locX=>(rez_cmp_local_var_dc_getWidth * 0.5), :locY=>((rez_cmp_local_var_dc_getHeight - dc.getFontHeight(Graphics.FONT_LARGE)) * 0.5), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_LARGE});
 
-            return [rez_cmp_local_custom_drawable_10808232003270196551, rez_cmp_local_text_label, rez_cmp_local_text_value, rez_cmp_local_text_HeartRate, rez_cmp_local_text_MaxHeartRate] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_custom_drawable_17987455171710209473, rez_cmp_local_text_label, rez_cmp_local_text_value, rez_cmp_local_text_HeartRate, rez_cmp_local_text_MaxHeartRate] as Array<WatchUi.Drawable>;
         }
 
         function TopLeftLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var rez_cmp_local_custom_drawable_10817831588497944248 = new Background();
+            var rez_cmp_local_custom_drawable_10040510021823475444 = new Background();
 
             var rez_cmp_local_text_label = new WatchUi.Text({:identifier=>"label", :color=>Graphics.COLOR_LT_GRAY, :locX=>95, :locY=>75, :justification=>Graphics.TEXT_JUSTIFY_RIGHT, :font=>Graphics.FONT_TINY});
 
             var rez_cmp_local_text_value = new WatchUi.Text({:identifier=>"value", :color=>Graphics.COLOR_WHITE, :locX=>95, :locY=>42, :justification=>Graphics.TEXT_JUSTIFY_RIGHT, :font=>Graphics.FONT_LARGE});
 
-            return [rez_cmp_local_custom_drawable_10817831588497944248, rez_cmp_local_text_label, rez_cmp_local_text_value] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_custom_drawable_10040510021823475444, rez_cmp_local_text_label, rez_cmp_local_text_value] as Array<WatchUi.Drawable>;
         }
 
         function TopRightLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var rez_cmp_local_custom_drawable_18921730452050453810 = new Background();
+            var rez_cmp_local_custom_drawable_17877864831818204878 = new Background();
 
             var rez_cmp_local_text_label = new WatchUi.Text({:identifier=>"label", :color=>Graphics.COLOR_LT_GRAY, :locX=>14, :locY=>75, :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_TINY});
 
             var rez_cmp_local_text_value = new WatchUi.Text({:identifier=>"value", :color=>Graphics.COLOR_WHITE, :locX=>14, :locY=>42, :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_LARGE});
 
-            return [rez_cmp_local_custom_drawable_18921730452050453810, rez_cmp_local_text_label, rez_cmp_local_text_value] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_custom_drawable_17877864831818204878, rez_cmp_local_text_label, rez_cmp_local_text_value] as Array<WatchUi.Drawable>;
         }
 
         function BottomLeftLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var rez_cmp_local_custom_drawable_17779914371287133745 = new Background();
+            var rez_cmp_local_custom_drawable_21209264131613838422 = new Background();
 
             var rez_cmp_local_text_label = new WatchUi.Text({:identifier=>"label", :color=>Graphics.COLOR_LT_GRAY, :locX=>95, :locY=>10, :justification=>Graphics.TEXT_JUSTIFY_RIGHT, :font=>Graphics.FONT_TINY});
 
             var rez_cmp_local_text_value = new WatchUi.Text({:identifier=>"value", :color=>Graphics.COLOR_WHITE, :locX=>95, :locY=>27, :justification=>Graphics.TEXT_JUSTIFY_RIGHT, :font=>Graphics.FONT_LARGE});
 
-            return [rez_cmp_local_custom_drawable_17779914371287133745, rez_cmp_local_text_label, rez_cmp_local_text_value] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_custom_drawable_21209264131613838422, rez_cmp_local_text_label, rez_cmp_local_text_value] as Array<WatchUi.Drawable>;
         }
 
         function BottomRightLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var rez_cmp_local_custom_drawable_18045534089375196501 = new Background();
+            var rez_cmp_local_custom_drawable_62046314110213006781 = new Background();
 
             var rez_cmp_local_text_label = new WatchUi.Text({:identifier=>"label", :color=>Graphics.COLOR_LT_GRAY, :locX=>14, :locY=>10, :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_TINY});
 
             var rez_cmp_local_text_value = new WatchUi.Text({:identifier=>"value", :color=>Graphics.COLOR_WHITE, :locX=>14, :locY=>27, :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_LARGE});
 
-            return [rez_cmp_local_custom_drawable_18045534089375196501, rez_cmp_local_text_label, rez_cmp_local_text_value] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_custom_drawable_62046314110213006781, rez_cmp_local_text_label, rez_cmp_local_text_value] as Array<WatchUi.Drawable>;
         }
 
         function TopLineLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var rez_cmp_local_custom_drawable_13830476011985068164 = new Background();
+            var rez_cmp_local_custom_drawable_11745176341513899187 = new Background();
 
             var rez_cmp_local_text_directionValue = new WatchUi.Text({:identifier=>"directionValue", :color=>Graphics.COLOR_BLACK, :locX=>0, :locY=>0, :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_TINY});
 
@@ -96,7 +97,9 @@ module Rez {
 
             var rez_cmp_local_text_hRateValue = new WatchUi.Text({:identifier=>"hRateValue", :color=>Graphics.COLOR_LT_GRAY, :locX=>20, :locY=>21, :justification=>Graphics.TEXT_JUSTIFY_RIGHT, :font=>Graphics.FONT_TINY});
 
-            return [rez_cmp_local_custom_drawable_13830476011985068164, rez_cmp_local_text_directionValue, rez_cmp_local_text_slopeLabel, rez_cmp_local_text_slopeValue, rez_cmp_local_text_celsiusValue, rez_cmp_local_text_batteryLabel, rez_cmp_local_text_batteryValue, rez_cmp_local_text_timeValue, rez_cmp_local_text_hRateLabel, rez_cmp_local_text_hRateValue] as Array<WatchUi.Drawable>;
+            var rez_cmp_local_text_TimeLabel = new WatchUi.Text({:identifier=>"TimeLabel", :color=>Graphics.COLOR_BLUE, :locX=>(dc.getWidth() * 0.5), :locY=>((dc.getHeight() - dc.getFontHeight(Graphics.FONT_LARGE)) * 0.5), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_LARGE});
+
+            return [rez_cmp_local_custom_drawable_11745176341513899187, rez_cmp_local_text_directionValue, rez_cmp_local_text_slopeLabel, rez_cmp_local_text_slopeValue, rez_cmp_local_text_celsiusValue, rez_cmp_local_text_batteryLabel, rez_cmp_local_text_batteryValue, rez_cmp_local_text_timeValue, rez_cmp_local_text_hRateLabel, rez_cmp_local_text_hRateValue, rez_cmp_local_text_TimeLabel] as Array<WatchUi.Drawable>;
         }
     } // Layouts
 
@@ -107,8 +110,10 @@ module Rez {
         (:initialized) var hRateValue as Symbol;
         (:initialized) var batteryLabel as Symbol;
         (:initialized) var celsiusLabel as Symbol;
+        (:initialized) var battery75 as Symbol;
         (:initialized) var maxHRateValue as Symbol;
         (:initialized) var slopeLabel as Symbol;
+        (:initialized) var battery50 as Symbol;
         (:initialized) var label as Symbol;
         (:initialized) var timeValue as Symbol;
         (:initialized) var AppName as Symbol;
@@ -116,6 +121,7 @@ module Rez {
         (:initialized) var celsiusValue as Symbol;
         (:initialized) var batteryValue as Symbol;
         (:initialized) var slopeValue as Symbol;
+        (:initialized) var battery100 as Symbol;
         (:initialized) var value as Symbol;
         (:initialized) var avgHRateValue as Symbol;
         (:initialized) var directionValue as Symbol;
