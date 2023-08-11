@@ -20,7 +20,7 @@ class AllNeedApp extends Application.AppBase {
 
     //! Return the initial view of your application here
     function getInitialView() as Array<Views or InputDelegates>? {
-        return [ new AllNeedView() ] as Array<Views or InputDelegates>;
+        return [ new AllNeedView()] as Array<Views or InputDelegates>;
     }
 
 

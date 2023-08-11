@@ -1,0 +1,23 @@
+<strings>
+    <string id="AppName">AllNeed</string>
+    <string id="label">lable</string>
+    <string id="value">value</string>
+
+    <string id="directionValue">东</string>
+    <string id="slopeLabel">坡:</string>
+    <string id="slopeValue">23%</string>
+    <string id="celsiusLabel">°C</string>
+    <string id="celsiusValue">°C</string>
+    <string id="batteryLabel">电:</string>
+    <string id="batteryValue">90%</string>
+    <string id="timeValue">12:00</string>
+
+    <string id="battery100">100%</string>
+    <string id="battery75">75%</string>
+    <string id="battery50">50%</string>
+
+    <string id="hRateLabel">心率</string> //当前心率
+    <string id="hRateValue">180</string> //当前心率
+    <string id="maxHRateValue">200</string> //最大心率
+    <string id="avgHRateValue">170</string> //平均心率
+</strings>

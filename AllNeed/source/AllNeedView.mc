@@ -4,6 +4,7 @@ import Toybox.Lang;
 import Toybox.WatchUi;
 import Toybox.AntPlus;
 import Toybox.Application;
+import ToplineDrawable;
 
 
 using Toybox.System;
@@ -11,6 +12,7 @@ using Toybox.System;
 
 class AllNeedView extends WatchUi.DataField {
 
+    var battery = null;
     hidden var mHeartRate as Numeric;
     //hidden var mBatteryNum as Numeric;
     var mBatteryNum = 0 as AntPlus.BatteryStatusValue;
@@ -112,6 +114,12 @@ class AllNeedView extends WatchUi.DataField {
         //timeValue.locY = timeValue.locY - 16;
         (View.findDrawableById("timeValue") as Text).setText(Rez.Strings.timeValue);
         */
+        battery = new Battery({
+	    				:locX => 100,
+	    				:locY => 50 
+	    		 	}, Graphics.COLOR_DK_BLUE, Graphics.COLOR_WHITE, 0);
+        battery.draw(dc);
+
     }
 
     // The given info object contains all the current workout information.
@@ -175,9 +183,11 @@ class AllNeedView extends WatchUi.DataField {
         batteryLabel.locX = screenWidth* 4/totalToplineItemNum;
         batteryLabel.setColor(0xADFF2F);
 
+
+
         //var banana = WatchUi.loadResource(Rez.Drawables.battery50);
         //batteryLabel.drawBitmap(batteryLabel.locX, batteryLabel.locY, banana);
-        batteryLabel.draw(dc);
+        //batteryLabel.draw(dc);
         //batteryLabel.drawText(batteryLabel.locX, batteryLabel.locY, Graphics.FONT_TINY, mSystemStats.battery.toLong().toString(), Graphics.TEXT_JUSTIFY_LEFT);
         //batteryLabel.setColor(0xADFF2F);
         //batteryLabel.setText(mSystemStats.battery.toLong().toString());
@@ -185,17 +195,43 @@ class AllNeedView extends WatchUi.DataField {
         //batteryLabel.setBackgroundColor(Graphics.COLOR_GREEN);
         //View.findDrawableById("batteryLabel").setBitmap(0,0,battery50);
 
-        var batteryValue = View.findDrawableById("batteryValue") as Text;
-        batteryValue.locX = screenWidth* 5/totalToplineItemNum;
-        batteryValue.setText(mSystemStats.battery.toLong().toString() + "%");
-        batteryValue.setColor(Graphics.COLOR_BLACK);
-        if (mSystemStats.battery > 80) {
-            batteryValue.setBackgroundColor(Graphics.COLOR_GREEN);
-        } else if(mSystemStats.battery<=80 && mSystemStats.battery>60) {
-            batteryValue.setBackgroundColor(Graphics.COLOR_BLUE);
-        } else if(mSystemStats.battery<=60 && mSystemStats.battery>40) {
-            batteryValue.setBackgroundColor(0x001000);
-        }
+
+        //var batteryValue = View.findDrawableById("batteryValue") as Text;
+        //batteryValue.locX = screenWidth* 5/totalToplineItemNum;
+        //batteryValue.setText(mSystemStats.battery.toLong().toString() + "%");
+        //batteryValue.setColor(Graphics.COLOR_GREEN);
+
+/*
+        if (mSystemStats.battery.toLong() >= 75) {
+            var batteryValue = View.findDrawableById("Battery") as Text;
+            //batteryValue.setBackgroundColor(Graphics.COLOR_GREEN);
+            batteryValue.locX=screenWidth* 5/totalToplineItemNum;
+            batteryValue.locY=0;
+            batteryValue.draw(dc);
+        } else if(mSystemStats.battery.toLong()<75 && mSystemStats.battery>=50) {
+            var batteryValue = View.findDrawableById("Battery_50_75") as Text;
+            batteryValue.locY=0;
+            //batteryValue.setBackgroundColor(Graphics.COLOR_GREEN);
+            batteryValue.locX=screenWidth* 5/totalToplineItemNum;
+            batteryValue.draw(dc);
+            //batteryValue.setBackgroundColor(Graphics.COLOR_YELLOW);
+        } else if(mSystemStats.battery.toLong()<50 && mSystemStats.battery>=25) {
+            var batteryValue = View.findDrawableById("Battery_25_50") as Text;
+            //batteryValue.setBackgroundColor(Graphics.COLOR_GREEN);
+            batteryValue.locX=screenWidth* 5/totalToplineItemNum;
+            batteryValue.locY=0;
+            batteryValue.draw(dc);
+            //batteryValue.setBackgroundColor(Graphics.COLOR_ORANGE);
+        } else if(mSystemStats.battery.toLong()<25) {
+            var batteryValue = View.findDrawableById("Battery_0_25") as Text;
+            //batteryValue.setBackgroundColor(Graphics.COLOR_GREEN);
+            batteryValue.locX=screenWidth* 5/totalToplineItemNum;
+            batteryValue.locY=0;
+            batteryValue.draw(dc);
+            //batteryValue.setBackgroundColor(Graphics.COLOR_RED);
+        } 
+        */
+        
 
         var clockTime = System.getClockTime();
         var timeString = Lang.format(
@@ -210,6 +246,8 @@ class AllNeedView extends WatchUi.DataField {
         timeValue.locX = screenWidth * 6/totalToplineItemNum;
         //timeValue.locY = timeValue.locY - 16;
         (View.findDrawableById("timeValue") as Text).setText(Rez.Strings.timeValue);
+
+
         View.onUpdate(dc);
         //dc.setColor(Graphics.COLOR_GREEN, Graphics.COLOR_TRANSPARENT);
         //dc.fillRectangle(batteryValue.locX,batteryValue.locY/3,15,8);
@@ -219,7 +257,62 @@ class AllNeedView extends WatchUi.DataField {
         dc.drawText(batteryLabel.locX, batteryLabel.locY, Graphics.FONT_TINY, mSystemStats.battery.toLong().toString(), Graphics.TEXT_JUSTIFY_LEFT);
         batteryLabel.setColor(0xADFF2F);
         */
-        mBattery50Icon.draw(dc);
+        //mBattery50Icon.draw(dc);
+        //batteryValue.setSize(5, 12);
+        /*
+        if (mSystemStats.battery.toLong() >= 75) {
+            var batteryValue = View.findDrawableById("Battery") as Text;
+            //batteryValue.setBackgroundColor(Graphics.COLOR_GREEN);
+            batteryValue.locX=screenWidth* 5/totalToplineItemNum;
+            batteryValue.locY=0;
+            batteryValue.draw(dc);
+        } else if(mSystemStats.battery.toLong()<75 && mSystemStats.battery>=50) {
+            var batteryValue = View.findDrawableById("Battery_50_75") as Text;
+            batteryValue.locY=0;
+            //batteryValue.setBackgroundColor(Graphics.COLOR_GREEN);
+            batteryValue.locX=screenWidth* 5/totalToplineItemNum;
+            batteryValue.draw(dc);
+            //batteryValue.setBackgroundColor(Graphics.COLOR_YELLOW);
+        } else if(mSystemStats.battery.toLong()<50 && mSystemStats.battery>=25) {
+            var batteryValue = View.findDrawableById("Battery_25_50") as Text;
+            //batteryValue.setBackgroundColor(Graphics.COLOR_GREEN);
+            batteryValue.locX=screenWidth* 5/totalToplineItemNum;
+            batteryValue.locY=0;
+            batteryValue.draw(dc);
+            //batteryValue.setBackgroundColor(Graphics.COLOR_ORANGE);
+        } else if(mSystemStats.battery.toLong()<25) {
+            var batteryValue = View.findDrawableById("Battery_0_25") as Text;
+            //batteryValue.setBackgroundColor(Graphics.COLOR_GREEN);
+            batteryValue.locX=screenWidth* 5/totalToplineItemNum;
+            batteryValue.locY=0;
+            batteryValue.draw(dc);
+            //batteryValue.setBackgroundColor(Graphics.COLOR_RED);
+        } 
+        */
+        /*
+        dc.drawText(
+            dc.getWidth() / 2,                      // gets the width of the device and divides by 2
+            dc.getHeight() / 2,                     // gets the height of the device and divides by 2
+            Graphics.FONT_TINY,                    // sets the font size
+            "Hello",                          // the String to display
+            Graphics.TEXT_JUSTIFY_LEFT// sets the justification for the text
+        );
+        */
+
+        /*
+        var options = {
+            "identifier" => "test",
+            "locX" => 2,
+            "locY" => 40,
+            "width" => 30,
+            "height" => 20,
+            "visible" => 1
+        };
+        var toplineDrawable = new ToplineDrawable.BatteryDrawable(options);
+        toplineDrawable.setLevel(50);
+        toplineDrawable.draw(dc);
+        */
+        battery.draw(dc);
     }
 
 }

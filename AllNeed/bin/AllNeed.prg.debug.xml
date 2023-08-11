@@ -22,131 +22,175 @@
         <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedApp.mc" id="10" lineNum="9" parent="globals/AllNeedApp" pc="268435706" symbol="initialize"/>
         <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedApp.mc" id="10" lineNum="10" parent="globals/AllNeedApp" pc="268435708" symbol="initialize"/>
         <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedApp.mc" id="11" lineNum="18" parent="globals/AllNeedApp" pc="268435727" symbol="onStop"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="12" lineNum="12" parent="globals/AllNeedView" pc="268435730" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="12" lineNum="18" parent="globals/AllNeedView" pc="268435748" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="13" lineNum="121" parent="globals/AllNeedView" pc="268435772" symbol="compute"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="13" lineNum="123" parent="globals/AllNeedView" pc="268435774" symbol="compute"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="13" lineNum="124" parent="globals/AllNeedView" pc="268435785" symbol="compute"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="13" lineNum="125" parent="globals/AllNeedView" pc="268435798" symbol="compute"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="13" lineNum="127" parent="globals/AllNeedView" pc="268435817" symbol="compute"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="13" lineNum="132" parent="globals/AllNeedView" pc="268435833" symbol="compute"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="14" lineNum="43" parent="globals/AllNeedView" pc="268435870" symbol="onLayout"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="15" lineNum="30" parent="globals/AllNeedView" pc="268435873" symbol="initialize"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="15" lineNum="31" parent="globals/AllNeedView" pc="268435875" symbol="initialize"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="15" lineNum="32" parent="globals/AllNeedView" pc="268435893" symbol="initialize"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="15" lineNum="33" parent="globals/AllNeedView" pc="268435906" symbol="initialize"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="15" lineNum="34" parent="globals/AllNeedView" pc="268435919" symbol="initialize"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="139" parent="globals/AllNeedView" pc="268436018" symbol="onUpdate"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="144" parent="globals/AllNeedView" pc="268436022" symbol="onUpdate"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="145" parent="globals/AllNeedView" pc="268436073" symbol="onUpdate"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="146" parent="globals/AllNeedView" pc="268436086" symbol="onUpdate"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="147" parent="globals/AllNeedView" pc="268436099" symbol="onUpdate"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="149" parent="globals/AllNeedView" pc="268436106" symbol="onUpdate"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="150" parent="globals/AllNeedView" pc="268436134" symbol="onUpdate"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="151" parent="globals/AllNeedView" pc="268436147" symbol="onUpdate"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="153" parent="globals/AllNeedView" pc="268436207" symbol="onUpdate"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="154" parent="globals/AllNeedView" pc="268436235" symbol="onUpdate"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="155" parent="globals/AllNeedView" pc="268436254" symbol="onUpdate"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="157" parent="globals/AllNeedView" pc="268436314" symbol="onUpdate"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="159" parent="globals/AllNeedView" pc="268436342" symbol="onUpdate"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="160" parent="globals/AllNeedView" pc="268436363" symbol="onUpdate"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="161" parent="globals/AllNeedView" pc="268436387" symbol="onUpdate"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="162" parent="globals/AllNeedView" pc="268436408" symbol="onUpdate"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="163" parent="globals/AllNeedView" pc="268436456" symbol="onUpdate"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="165" parent="globals/AllNeedView" pc="268436477" symbol="onUpdate"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="167" parent="globals/AllNeedView" pc="268436514" symbol="onUpdate"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="168" parent="globals/AllNeedView" pc="268436536" symbol="onUpdate"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="170" parent="globals/AllNeedView" pc="268436596" symbol="onUpdate"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="171" parent="globals/AllNeedView" pc="268436624" symbol="onUpdate"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="172" parent="globals/AllNeedView" pc="268436643" symbol="onUpdate"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="174" parent="globals/AllNeedView" pc="268436703" symbol="onUpdate"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="175" parent="globals/AllNeedView" pc="268436731" symbol="onUpdate"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="176" parent="globals/AllNeedView" pc="268436750" symbol="onUpdate"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="180" parent="globals/AllNeedView" pc="268436767" symbol="onUpdate"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="188" parent="globals/AllNeedView" pc="268436781" symbol="onUpdate"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="189" parent="globals/AllNeedView" pc="268436809" symbol="onUpdate"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="190" parent="globals/AllNeedView" pc="268436828" symbol="onUpdate"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="191" parent="globals/AllNeedView" pc="268436878" symbol="onUpdate"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="192" parent="globals/AllNeedView" pc="268436895" symbol="onUpdate"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="193" parent="globals/AllNeedView" pc="268436918" symbol="onUpdate"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="194" parent="globals/AllNeedView" pc="268436938" symbol="onUpdate"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="195" parent="globals/AllNeedView" pc="268436987" symbol="onUpdate"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="196" parent="globals/AllNeedView" pc="268437007" symbol="onUpdate"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="197" parent="globals/AllNeedView" pc="268437056" symbol="onUpdate"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="200" parent="globals/AllNeedView" pc="268437076" symbol="onUpdate"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="201" parent="globals/AllNeedView" pc="268437093" symbol="onUpdate"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="205" parent="globals/AllNeedView" pc="268437167" symbol="onUpdate"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="206" parent="globals/AllNeedView" pc="268437195" symbol="onUpdate"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="209" parent="globals/AllNeedView" pc="268437209" symbol="onUpdate"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="210" parent="globals/AllNeedView" pc="268437237" symbol="onUpdate"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="212" parent="globals/AllNeedView" pc="268437256" symbol="onUpdate"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="213" parent="globals/AllNeedView" pc="268437316" symbol="onUpdate"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="222" parent="globals/AllNeedView" pc="268437340" symbol="onUpdate"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="17" lineNum="69" parent="globals/Rez/Layouts" pc="268437361" symbol="BottomRightLayout"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="17" lineNum="70" parent="globals/Rez/Layouts" pc="268437373" symbol="BottomRightLayout"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="17" lineNum="72" parent="globals/Rez/Layouts" pc="268437401" symbol="BottomRightLayout"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="17" lineNum="74" parent="globals/Rez/Layouts" pc="268437513" symbol="BottomRightLayout"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="17" lineNum="76" parent="globals/Rez/Layouts" pc="268437625" symbol="BottomRightLayout"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="18" lineNum="49" parent="globals/Rez/Layouts" pc="268437662" symbol="TopRightLayout"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="18" lineNum="50" parent="globals/Rez/Layouts" pc="268437674" symbol="TopRightLayout"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="18" lineNum="52" parent="globals/Rez/Layouts" pc="268437702" symbol="TopRightLayout"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="18" lineNum="54" parent="globals/Rez/Layouts" pc="268437814" symbol="TopRightLayout"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="18" lineNum="56" parent="globals/Rez/Layouts" pc="268437926" symbol="TopRightLayout"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="19" lineNum="59" parent="globals/Rez/Layouts" pc="268437963" symbol="BottomLeftLayout"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="19" lineNum="60" parent="globals/Rez/Layouts" pc="268437975" symbol="BottomLeftLayout"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="19" lineNum="62" parent="globals/Rez/Layouts" pc="268438003" symbol="BottomLeftLayout"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="19" lineNum="64" parent="globals/Rez/Layouts" pc="268438115" symbol="BottomLeftLayout"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="19" lineNum="66" parent="globals/Rez/Layouts" pc="268438227" symbol="BottomLeftLayout"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="20" lineNum="79" parent="globals/Rez/Layouts" pc="268438264" symbol="TopLineLayout"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="20" lineNum="80" parent="globals/Rez/Layouts" pc="268438276" symbol="TopLineLayout"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="20" lineNum="82" parent="globals/Rez/Layouts" pc="268438304" symbol="TopLineLayout"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="20" lineNum="84" parent="globals/Rez/Layouts" pc="268438416" symbol="TopLineLayout"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="20" lineNum="86" parent="globals/Rez/Layouts" pc="268438528" symbol="TopLineLayout"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="20" lineNum="88" parent="globals/Rez/Layouts" pc="268438640" symbol="TopLineLayout"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="20" lineNum="90" parent="globals/Rez/Layouts" pc="268438752" symbol="TopLineLayout"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="20" lineNum="92" parent="globals/Rez/Layouts" pc="268438864" symbol="TopLineLayout"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="20" lineNum="94" parent="globals/Rez/Layouts" pc="268438976" symbol="TopLineLayout"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="20" lineNum="96" parent="globals/Rez/Layouts" pc="268439088" symbol="TopLineLayout"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="20" lineNum="98" parent="globals/Rez/Layouts" pc="268439200" symbol="TopLineLayout"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="20" lineNum="100" parent="globals/Rez/Layouts" pc="268439312" symbol="TopLineLayout"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="20" lineNum="102" parent="globals/Rez/Layouts" pc="268439465" symbol="TopLineLayout"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="21" lineNum="39" parent="globals/Rez/Layouts" pc="268439582" symbol="TopLeftLayout"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="21" lineNum="40" parent="globals/Rez/Layouts" pc="268439594" symbol="TopLeftLayout"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="21" lineNum="42" parent="globals/Rez/Layouts" pc="268439622" symbol="TopLeftLayout"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="21" lineNum="44" parent="globals/Rez/Layouts" pc="268439734" symbol="TopLeftLayout"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="21" lineNum="46" parent="globals/Rez/Layouts" pc="268439846" symbol="TopLeftLayout"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="22" lineNum="21" parent="globals/Rez/Layouts" pc="268439883" symbol="MainLayout"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="22" lineNum="22" parent="globals/Rez/Layouts" pc="268439895" symbol="MainLayout"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="22" lineNum="24" parent="globals/Rez/Layouts" pc="268439908" symbol="MainLayout"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="22" lineNum="26" parent="globals/Rez/Layouts" pc="268439921" symbol="MainLayout"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="22" lineNum="28" parent="globals/Rez/Layouts" pc="268439949" symbol="MainLayout"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="22" lineNum="30" parent="globals/Rez/Layouts" pc="268440084" symbol="MainLayout"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="22" lineNum="32" parent="globals/Rez/Layouts" pc="268440219" symbol="MainLayout"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="22" lineNum="34" parent="globals/Rez/Layouts" pc="268440354" symbol="MainLayout"/>
-        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="22" lineNum="36" parent="globals/Rez/Layouts" pc="268440489" symbol="MainLayout"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="12" lineNum="13" parent="globals/AllNeedView" pc="268435730" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="12" lineNum="20" parent="globals/AllNeedView" pc="268435748" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="13" lineNum="129" parent="globals/AllNeedView" pc="268435772" symbol="compute"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="13" lineNum="131" parent="globals/AllNeedView" pc="268435774" symbol="compute"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="13" lineNum="132" parent="globals/AllNeedView" pc="268435785" symbol="compute"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="13" lineNum="133" parent="globals/AllNeedView" pc="268435798" symbol="compute"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="13" lineNum="135" parent="globals/AllNeedView" pc="268435817" symbol="compute"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="13" lineNum="140" parent="globals/AllNeedView" pc="268435833" symbol="compute"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="14" lineNum="45" parent="globals/AllNeedView" pc="268435870" symbol="onLayout"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="14" lineNum="117" parent="globals/AllNeedView" pc="268435872" symbol="onLayout"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="14" lineNum="121" parent="globals/AllNeedView" pc="268435953" symbol="onLayout"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="15" lineNum="32" parent="globals/AllNeedView" pc="268435974" symbol="initialize"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="15" lineNum="33" parent="globals/AllNeedView" pc="268435976" symbol="initialize"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="15" lineNum="34" parent="globals/AllNeedView" pc="268435994" symbol="initialize"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="15" lineNum="35" parent="globals/AllNeedView" pc="268436007" symbol="initialize"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="15" lineNum="36" parent="globals/AllNeedView" pc="268436020" symbol="initialize"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="147" parent="globals/AllNeedView" pc="268436119" symbol="onUpdate"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="152" parent="globals/AllNeedView" pc="268436123" symbol="onUpdate"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="153" parent="globals/AllNeedView" pc="268436174" symbol="onUpdate"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="154" parent="globals/AllNeedView" pc="268436187" symbol="onUpdate"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="155" parent="globals/AllNeedView" pc="268436200" symbol="onUpdate"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="157" parent="globals/AllNeedView" pc="268436207" symbol="onUpdate"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="158" parent="globals/AllNeedView" pc="268436235" symbol="onUpdate"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="159" parent="globals/AllNeedView" pc="268436248" symbol="onUpdate"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="161" parent="globals/AllNeedView" pc="268436308" symbol="onUpdate"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="162" parent="globals/AllNeedView" pc="268436336" symbol="onUpdate"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="163" parent="globals/AllNeedView" pc="268436355" symbol="onUpdate"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="165" parent="globals/AllNeedView" pc="268436415" symbol="onUpdate"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="167" parent="globals/AllNeedView" pc="268436443" symbol="onUpdate"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="168" parent="globals/AllNeedView" pc="268436464" symbol="onUpdate"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="169" parent="globals/AllNeedView" pc="268436488" symbol="onUpdate"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="170" parent="globals/AllNeedView" pc="268436509" symbol="onUpdate"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="171" parent="globals/AllNeedView" pc="268436557" symbol="onUpdate"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="173" parent="globals/AllNeedView" pc="268436578" symbol="onUpdate"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="175" parent="globals/AllNeedView" pc="268436615" symbol="onUpdate"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="176" parent="globals/AllNeedView" pc="268436637" symbol="onUpdate"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="178" parent="globals/AllNeedView" pc="268436697" symbol="onUpdate"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="179" parent="globals/AllNeedView" pc="268436725" symbol="onUpdate"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="180" parent="globals/AllNeedView" pc="268436744" symbol="onUpdate"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="182" parent="globals/AllNeedView" pc="268436804" symbol="onUpdate"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="183" parent="globals/AllNeedView" pc="268436832" symbol="onUpdate"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="184" parent="globals/AllNeedView" pc="268436851" symbol="onUpdate"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="236" parent="globals/AllNeedView" pc="268436868" symbol="onUpdate"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="237" parent="globals/AllNeedView" pc="268436885" symbol="onUpdate"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="241" parent="globals/AllNeedView" pc="268436959" symbol="onUpdate"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="242" parent="globals/AllNeedView" pc="268436987" symbol="onUpdate"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="245" parent="globals/AllNeedView" pc="268437001" symbol="onUpdate"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="246" parent="globals/AllNeedView" pc="268437029" symbol="onUpdate"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="248" parent="globals/AllNeedView" pc="268437048" symbol="onUpdate"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="251" parent="globals/AllNeedView" pc="268437108" symbol="onUpdate"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/AllNeedView.mc" id="16" lineNum="315" parent="globals/AllNeedView" pc="268437132" symbol="onUpdate"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/ToplineDrawable.mc" id="17" lineNum="6" parent="globals/ToplineDrawable/Battery" pc="268437153" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/ToplineDrawable.mc" id="18" lineNum="12" parent="globals/ToplineDrawable/Battery" pc="268437172" symbol="initialize"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/ToplineDrawable.mc" id="18" lineNum="13" parent="globals/ToplineDrawable/Battery" pc="268437174" symbol="initialize"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/ToplineDrawable.mc" id="18" lineNum="14" parent="globals/ToplineDrawable/Battery" pc="268437198" symbol="initialize"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/ToplineDrawable.mc" id="18" lineNum="15" parent="globals/ToplineDrawable/Battery" pc="268437208" symbol="initialize"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/ToplineDrawable.mc" id="18" lineNum="16" parent="globals/ToplineDrawable/Battery" pc="268437218" symbol="initialize"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/ToplineDrawable.mc" id="19" lineNum="19" parent="globals/ToplineDrawable/Battery" pc="268437229" symbol="draw"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/ToplineDrawable.mc" id="19" lineNum="20" parent="globals/ToplineDrawable/Battery" pc="268437233" symbol="draw"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/ToplineDrawable.mc" id="19" lineNum="21" parent="globals/ToplineDrawable/Battery" pc="268437256" symbol="draw"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/ToplineDrawable.mc" id="19" lineNum="22" parent="globals/ToplineDrawable/Battery" pc="268437266" symbol="draw"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/ToplineDrawable.mc" id="19" lineNum="23" parent="globals/ToplineDrawable/Battery" pc="268437289" symbol="draw"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/ToplineDrawable.mc" id="19" lineNum="25" parent="globals/ToplineDrawable/Battery" pc="268437302" symbol="draw"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/ToplineDrawable.mc" id="19" lineNum="26" parent="globals/ToplineDrawable/Battery" pc="268437312" symbol="draw"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/ToplineDrawable.mc" id="19" lineNum="27" parent="globals/ToplineDrawable/Battery" pc="268437340" symbol="draw"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/ToplineDrawable.mc" id="19" lineNum="28" parent="globals/ToplineDrawable/Battery" pc="268437372" symbol="draw"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/ToplineDrawable.mc" id="19" lineNum="29" parent="globals/ToplineDrawable/Battery" pc="268437382" symbol="draw"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/ToplineDrawable.mc" id="19" lineNum="30" parent="globals/ToplineDrawable/Battery" pc="268437404" symbol="draw"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/ToplineDrawable.mc" id="19" lineNum="31" parent="globals/ToplineDrawable/Battery" pc="268437417" symbol="draw"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/ToplineDrawable.mc" id="19" lineNum="32" parent="globals/ToplineDrawable/Battery" pc="268437425" symbol="draw"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/ToplineDrawable.mc" id="19" lineNum="33" parent="globals/ToplineDrawable/Battery" pc="268437453" symbol="draw"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/ToplineDrawable.mc" id="19" lineNum="34" parent="globals/ToplineDrawable/Battery" pc="268437472" symbol="draw"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/ToplineDrawable.mc" id="19" lineNum="35" parent="globals/ToplineDrawable/Battery" pc="268437485" symbol="draw"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/ToplineDrawable.mc" id="19" lineNum="36" parent="globals/ToplineDrawable/Battery" pc="268437499" symbol="draw"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/ToplineDrawable.mc" id="19" lineNum="38" parent="globals/ToplineDrawable/Battery" pc="268437512" symbol="draw"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/ToplineDrawable.mc" id="19" lineNum="39" parent="globals/ToplineDrawable/Battery" pc="268437546" symbol="draw"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/ToplineDrawable.mc" id="19" lineNum="40" parent="globals/ToplineDrawable/Battery" pc="268437586" symbol="draw"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/ToplineDrawable.mc" id="19" lineNum="41" parent="globals/ToplineDrawable/Battery" pc="268437632" symbol="draw"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/ToplineDrawable.mc" id="19" lineNum="42" parent="globals/ToplineDrawable/Battery" pc="268437678" symbol="draw"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/ToplineDrawable.mc" id="19" lineNum="43" parent="globals/ToplineDrawable/Battery" pc="268437724" symbol="draw"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/ToplineDrawable.mc" id="19" lineNum="44" parent="globals/ToplineDrawable/Battery" pc="268437770" symbol="draw"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/ToplineDrawable.mc" id="19" lineNum="45" parent="globals/ToplineDrawable/Battery" pc="268437816" symbol="draw"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/ToplineDrawable.mc" id="19" lineNum="46" parent="globals/ToplineDrawable/Battery" pc="268437856" symbol="draw"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/ToplineDrawable.mc" id="19" lineNum="47" parent="globals/ToplineDrawable/Battery" pc="268437870" symbol="draw"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/ToplineDrawable.mc" id="19" lineNum="48" parent="globals/ToplineDrawable/Battery" pc="268437898" symbol="draw"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/ToplineDrawable.mc" id="19" lineNum="49" parent="globals/ToplineDrawable/Battery" pc="268437936" symbol="draw"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/ToplineDrawable.mc" id="19" lineNum="50" parent="globals/ToplineDrawable/Battery" pc="268437958" symbol="draw"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/ToplineDrawable.mc" id="19" lineNum="51" parent="globals/ToplineDrawable/Battery" pc="268437969" symbol="draw"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/source/ToplineDrawable.mc" id="19" lineNum="53" parent="globals/ToplineDrawable/Battery" pc="268438007" symbol="draw"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="20" lineNum="13" parent="globals/Rez/Drawables/myShapes" pc="268438042" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="21" lineNum="15" parent="globals/Rez/Drawables/myShapes" pc="268438061" symbol="initialize"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="21" lineNum="16" parent="globals/Rez/Drawables/myShapes" pc="268438063" symbol="initialize"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="22" lineNum="19" parent="globals/Rez/Drawables/myShapes" pc="268438088" symbol="draw"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="22" lineNum="20" parent="globals/Rez/Drawables/myShapes" pc="268438090" symbol="draw"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="22" lineNum="21" parent="globals/Rez/Drawables/myShapes" pc="268438101" symbol="draw"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="22" lineNum="22" parent="globals/Rez/Drawables/myShapes" pc="268438113" symbol="draw"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="22" lineNum="26" parent="globals/Rez/Drawables/myShapes" pc="268438120" symbol="draw"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="22" lineNum="27" parent="globals/Rez/Drawables/myShapes" pc="268438142" symbol="draw"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="22" lineNum="28" parent="globals/Rez/Drawables/myShapes" pc="268438198" symbol="draw"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="22" lineNum="30" parent="globals/Rez/Drawables/myShapes" pc="268438220" symbol="draw"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="22" lineNum="31" parent="globals/Rez/Drawables/myShapes" pc="268438242" symbol="draw"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="22" lineNum="32" parent="globals/Rez/Drawables/myShapes" pc="268438269" symbol="draw"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="22" lineNum="33" parent="globals/Rez/Drawables/myShapes" pc="268438291" symbol="draw"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="23" lineNum="93" parent="globals/Rez/Layouts" pc="268438324" symbol="BottomRightLayout"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="23" lineNum="94" parent="globals/Rez/Layouts" pc="268438336" symbol="BottomRightLayout"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="23" lineNum="96" parent="globals/Rez/Layouts" pc="268438364" symbol="BottomRightLayout"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="23" lineNum="98" parent="globals/Rez/Layouts" pc="268438476" symbol="BottomRightLayout"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="23" lineNum="100" parent="globals/Rez/Layouts" pc="268438588" symbol="BottomRightLayout"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="24" lineNum="73" parent="globals/Rez/Layouts" pc="268438625" symbol="TopRightLayout"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="24" lineNum="74" parent="globals/Rez/Layouts" pc="268438637" symbol="TopRightLayout"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="24" lineNum="76" parent="globals/Rez/Layouts" pc="268438665" symbol="TopRightLayout"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="24" lineNum="78" parent="globals/Rez/Layouts" pc="268438777" symbol="TopRightLayout"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="24" lineNum="80" parent="globals/Rez/Layouts" pc="268438889" symbol="TopRightLayout"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="25" lineNum="83" parent="globals/Rez/Layouts" pc="268438926" symbol="BottomLeftLayout"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="25" lineNum="84" parent="globals/Rez/Layouts" pc="268438938" symbol="BottomLeftLayout"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="25" lineNum="86" parent="globals/Rez/Layouts" pc="268438966" symbol="BottomLeftLayout"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="25" lineNum="88" parent="globals/Rez/Layouts" pc="268439078" symbol="BottomLeftLayout"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="25" lineNum="90" parent="globals/Rez/Layouts" pc="268439190" symbol="BottomLeftLayout"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="26" lineNum="103" parent="globals/Rez/Layouts" pc="268439227" symbol="TopLineLayout"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="26" lineNum="104" parent="globals/Rez/Layouts" pc="268439239" symbol="TopLineLayout"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="26" lineNum="106" parent="globals/Rez/Layouts" pc="268439267" symbol="TopLineLayout"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="26" lineNum="108" parent="globals/Rez/Layouts" pc="268439379" symbol="TopLineLayout"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="26" lineNum="110" parent="globals/Rez/Layouts" pc="268439491" symbol="TopLineLayout"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="26" lineNum="112" parent="globals/Rez/Layouts" pc="268439603" symbol="TopLineLayout"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="26" lineNum="114" parent="globals/Rez/Layouts" pc="268439715" symbol="TopLineLayout"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="26" lineNum="116" parent="globals/Rez/Layouts" pc="268439827" symbol="TopLineLayout"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="26" lineNum="118" parent="globals/Rez/Layouts" pc="268439939" symbol="TopLineLayout"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="26" lineNum="120" parent="globals/Rez/Layouts" pc="268440051" symbol="TopLineLayout"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="26" lineNum="122" parent="globals/Rez/Layouts" pc="268440163" symbol="TopLineLayout"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="26" lineNum="124" parent="globals/Rez/Layouts" pc="268440275" symbol="TopLineLayout"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="26" lineNum="126" parent="globals/Rez/Layouts" pc="268440428" symbol="TopLineLayout"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="27" lineNum="63" parent="globals/Rez/Layouts" pc="268440545" symbol="TopLeftLayout"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="27" lineNum="64" parent="globals/Rez/Layouts" pc="268440557" symbol="TopLeftLayout"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="27" lineNum="66" parent="globals/Rez/Layouts" pc="268440585" symbol="TopLeftLayout"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="27" lineNum="68" parent="globals/Rez/Layouts" pc="268440697" symbol="TopLeftLayout"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="27" lineNum="70" parent="globals/Rez/Layouts" pc="268440809" symbol="TopLeftLayout"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="28" lineNum="45" parent="globals/Rez/Layouts" pc="268440846" symbol="MainLayout"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="28" lineNum="46" parent="globals/Rez/Layouts" pc="268440858" symbol="MainLayout"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="28" lineNum="48" parent="globals/Rez/Layouts" pc="268440871" symbol="MainLayout"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="28" lineNum="50" parent="globals/Rez/Layouts" pc="268440884" symbol="MainLayout"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="28" lineNum="52" parent="globals/Rez/Layouts" pc="268440912" symbol="MainLayout"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="28" lineNum="54" parent="globals/Rez/Layouts" pc="268441047" symbol="MainLayout"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="28" lineNum="56" parent="globals/Rez/Layouts" pc="268441182" symbol="MainLayout"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="28" lineNum="58" parent="globals/Rez/Layouts" pc="268441317" symbol="MainLayout"/>
+        <entry filename="/Users/xu/study/connectiq/AllNeed/bin/gen/006-B3122-00/source/Rez.mcgen" id="28" lineNum="60" parent="globals/Rez/Layouts" pc="268441452" symbol="MainLayout"/>
     </pcToLineNum>
     <symbolTable>
-        <entry field="true" id="33" symbol="batteryLabel"/>
+        <entry field="true" id="37" symbol="batteryLabel"/>
         <entry id="8388639" module="true" symbol="Graphics"/>
-        <entry field="true" id="17" symbol="mHeartRate"/>
+        <entry field="true" id="20" symbol="mHeartRate"/>
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
         <entry id="7" module="true" symbol="globals/Rez/Menus"/>
-        <entry id="25" method="true" symbol="MainLayout"/>
-        <entry field="true" id="14" symbol="mBattery50Icon"/>
-        <entry field="true" id="42" symbol="slopeValue"/>
-        <entry field="true" id="41" symbol="slopeLabel"/>
+        <entry id="29" method="true" symbol="MainLayout"/>
+        <entry field="true" id="17" symbol="mBattery50Icon"/>
+        <entry field="true" id="46" symbol="slopeValue"/>
+        <entry field="true" id="45" symbol="slopeLabel"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-        <entry field="true" id="19" symbol="myBitmap"/>
-        <entry field="true" id="29" symbol="AppName"/>
+        <entry field="true" id="22" symbol="myBitmap"/>
+        <entry field="true" id="33" symbol="AppName"/>
         <entry id="8" module="true" symbol="globals/Rez/Strings"/>
         <entry id="8388772" module="true" object="true" symbol="Fonts"/>
-        <entry field="true" id="13" symbol="image"/>
+        <entry field="true" id="16" symbol="image"/>
         <entry id="8389345" symbol="rezId"/>
-        <entry field="true" id="21" symbol="battery1Icon"/>
+        <entry field="true" id="24" symbol="battery1Icon"/>
+        <entry field="true" id="8388724" symbol="battery"/>
         <entry id="8388631" module="true" symbol="Activity"/>
         <entry field="true" id="8388947" method="true" symbol="value"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
-        <entry field="true" id="43" symbol="timeValue"/>
+        <entry field="true" id="47" symbol="timeValue"/>
         <entry field="true" id="8389138" symbol="label"/>
         <entry id="2" module="true" symbol="globals/Rez"/>
         <entry id="8389410" module="true" symbol="AntPlus"/>
@@ -154,114 +198,137 @@
         <entry field="true" id="8389065" symbol="locY"/>
         <entry field="true" id="8389064" symbol="locX"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
-        <entry id="8389348" symbol="font"/>
-        <entry id="12" module="true" symbol="Menus"/>
+        <entry field="true" id="8389348" symbol="font"/>
+        <entry id="14" module="true" symbol="Menus"/>
         <entry id="8389275" method="true" symbol="getApp"/>
         <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
+        <entry field="true" id="8391300" method="true" symbol="isVisible"/>
         <entry id="8389122" method="true" symbol="onLayout"/>
         <entry field="true" id="8389063" symbol="identifier"/>
-        <entry field="true" id="16" symbol="mBlablabla1"/>
+        <entry field="true" id="19" symbol="mBlablabla1"/>
         <entry id="8389349" symbol="justification"/>
+        <entry field="true" id="49" symbol="fg"/>
         <entry id="8389137" method="true" symbol="compute"/>
-        <entry field="true" id="36" symbol="celsiusValue"/>
-        <entry field="true" id="35" symbol="celsiusLabel"/>
+        <entry field="true" id="40" symbol="celsiusValue"/>
+        <entry field="true" id="48" symbol="bg"/>
+        <entry field="true" id="39" symbol="celsiusLabel"/>
         <entry id="8389131" method="true" symbol="setColor"/>
         <entry id="5" module="true" symbol="globals/Rez/JsonData"/>
+        <entry id="26" object="true" symbol="myShapes"/>
         <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
-        <entry id="26" method="true" symbol="TopLeftLayout"/>
+        <entry id="30" method="true" symbol="TopLeftLayout"/>
         <entry id="8388644" module="true" symbol="System"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
-        <entry field="true" id="18" symbol="mSystemStats"/>
-        <entry id="23" method="true" symbol="BottomLeftLayout"/>
-        <entry id="24" method="true" symbol="BottomRightLayout"/>
-        <entry id="27" method="true" symbol="TopLineLayout"/>
+        <entry field="true" id="21" symbol="mSystemStats"/>
+        <entry id="27" method="true" symbol="BottomLeftLayout"/>
+        <entry id="28" method="true" symbol="BottomRightLayout"/>
+        <entry id="31" method="true" symbol="TopLineLayout"/>
         <entry id="8388640" module="true" symbol="Lang"/>
         <entry id="8390088" module="true" object="true" symbol="JsonData"/>
         <entry field="true" id="8389130" symbol="mColor"/>
         <entry id="8389068" method="true" symbol="draw"/>
-        <entry field="true" id="20" symbol="LauncherIcon"/>
+        <entry field="true" id="23" symbol="LauncherIcon"/>
         <entry id="8388610" symbol="statics"/>
         <entry id="8389350" module="true" symbol="globals"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="15" object="true" symbol="Battery"/>
         <entry id="8390146" module="true" object="true" symbol="Background"/>
-        <entry field="true" id="30" symbol="avgHRateValue"/>
+        <entry field="true" id="34" symbol="avgHRateValue"/>
         <entry id="8388702" method="true" symbol="initialize"/>
         <entry id="8389279" method="true" symbol="onStart"/>
-        <entry id="10" object="true" symbol="AllNeedView"/>
-        <entry id="9" object="true" symbol="AllNeedApp"/>
+        <entry id="11" object="true" symbol="AllNeedView"/>
+        <entry id="10" object="true" symbol="AllNeedApp"/>
+        <entry id="9" module="true" symbol="globals/ToplineDrawable"/>
         <entry field="true" id="8388747" symbol="currentHeartRate"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
         <entry id="8389281" method="true" symbol="onStop"/>
         <entry id="8389347" symbol="color"/>
-        <entry field="true" id="31" symbol="battery100"/>
-        <entry field="true" id="15" symbol="mBatteryNum"/>
-        <entry id="11" module="true" symbol="Layouts"/>
-        <entry field="true" id="40" symbol="maxHRateValue"/>
+        <entry field="true" id="35" symbol="battery100"/>
+        <entry field="true" id="18" symbol="mBatteryNum"/>
+        <entry id="13" module="true" symbol="Layouts"/>
+        <entry field="true" id="44" symbol="maxHRateValue"/>
         <entry id="4" module="true" symbol="globals/Rez/Fonts"/>
-        <entry field="true" id="39" symbol="hRateValue"/>
-        <entry field="true" id="32" symbol="battery75"/>
-        <entry field="true" id="38" symbol="hRateLabel"/>
-        <entry field="true" id="22" symbol="battery50"/>
+        <entry field="true" id="43" symbol="hRateValue"/>
+        <entry id="12" module="true" symbol="ToplineDrawable"/>
+        <entry field="true" id="36" symbol="battery75"/>
+        <entry field="true" id="42" symbol="hRateLabel"/>
+        <entry field="true" id="25" symbol="battery50"/>
         <entry id="8388635" module="true" symbol="Application"/>
-        <entry field="true" id="37" symbol="directionValue"/>
-        <entry field="true" id="34" symbol="batteryValue"/>
-        <entry id="28" method="true" symbol="TopRightLayout"/>
+        <entry field="true" id="41" symbol="directionValue"/>
+        <entry field="true" id="38" symbol="batteryValue"/>
+        <entry id="32" method="true" symbol="TopRightLayout"/>
     </symbolTable>
     <localVars>
         <entry arg="true" endPc="268435517" name="color" stackId="1" startPc="268435505"/>
         <entry endPc="268435575" name="dictionary" stackId="1" startPc="268435522"/>
         <entry arg="true" endPc="268435616" name="dc" stackId="1" startPc="268435577"/>
         <entry arg="true" endPc="268435869" name="info" stackId="1" startPc="268435772"/>
-        <entry arg="true" endPc="268437360" name="dc" stackId="1" startPc="268436018"/>
-        <entry endPc="268437359" name="screenWidth" stackId="2" startPc="268436022"/>
-        <entry endPc="268437359" name="screenHeight" stackId="3" startPc="268436022"/>
-        <entry endPc="268437359" name="totalToplineItemNum" stackId="4" startPc="268436022"/>
-        <entry endPc="268437359" name="directionValue" stackId="5" startPc="268436022"/>
-        <entry endPc="268437359" name="slopeLabel" stackId="6" startPc="268436022"/>
-        <entry endPc="268437359" name="slopeValue" stackId="7" startPc="268436022"/>
-        <entry endPc="268437359" name="celsiusValue" stackId="8" startPc="268436022"/>
-        <entry endPc="268437359" name="batteryLabel" stackId="9" startPc="268436022"/>
-        <entry endPc="268437359" name="batteryValue" stackId="10" startPc="268436022"/>
-        <entry endPc="268437359" name="clockTime" stackId="11" startPc="268436022"/>
-        <entry endPc="268437359" name="timeString" stackId="12" startPc="268436022"/>
-        <entry endPc="268437359" name="view" stackId="13" startPc="268436022"/>
-        <entry endPc="268437359" name="timeValue" stackId="14" startPc="268436022"/>
-        <entry arg="true" endPc="268437661" name="dc" stackId="1" startPc="268437361"/>
-        <entry endPc="268437661" name="rez_cmp_local_custom_drawable_62046314110213006781" stackId="2" startPc="268437373"/>
-        <entry endPc="268437661" name="rez_cmp_local_text_label" stackId="3" startPc="268437373"/>
-        <entry endPc="268437661" name="rez_cmp_local_text_value" stackId="4" startPc="268437373"/>
-        <entry arg="true" endPc="268437962" name="dc" stackId="1" startPc="268437662"/>
-        <entry endPc="268437962" name="rez_cmp_local_custom_drawable_17877864831818204878" stackId="2" startPc="268437674"/>
-        <entry endPc="268437962" name="rez_cmp_local_text_label" stackId="3" startPc="268437674"/>
-        <entry endPc="268437962" name="rez_cmp_local_text_value" stackId="4" startPc="268437674"/>
-        <entry arg="true" endPc="268438263" name="dc" stackId="1" startPc="268437963"/>
-        <entry endPc="268438263" name="rez_cmp_local_custom_drawable_21209264131613838422" stackId="2" startPc="268437975"/>
-        <entry endPc="268438263" name="rez_cmp_local_text_label" stackId="3" startPc="268437975"/>
-        <entry endPc="268438263" name="rez_cmp_local_text_value" stackId="4" startPc="268437975"/>
-        <entry arg="true" endPc="268439581" name="dc" stackId="1" startPc="268438264"/>
-        <entry endPc="268439581" name="rez_cmp_local_custom_drawable_11745176341513899187" stackId="2" startPc="268438276"/>
-        <entry endPc="268439581" name="rez_cmp_local_text_directionValue" stackId="3" startPc="268438276"/>
-        <entry endPc="268439581" name="rez_cmp_local_text_slopeLabel" stackId="4" startPc="268438276"/>
-        <entry endPc="268439581" name="rez_cmp_local_text_slopeValue" stackId="5" startPc="268438276"/>
-        <entry endPc="268439581" name="rez_cmp_local_text_celsiusValue" stackId="6" startPc="268438276"/>
-        <entry endPc="268439581" name="rez_cmp_local_text_batteryLabel" stackId="7" startPc="268438276"/>
-        <entry endPc="268439581" name="rez_cmp_local_text_batteryValue" stackId="8" startPc="268438276"/>
-        <entry endPc="268439581" name="rez_cmp_local_text_timeValue" stackId="9" startPc="268438276"/>
-        <entry endPc="268439581" name="rez_cmp_local_text_hRateLabel" stackId="10" startPc="268438276"/>
-        <entry endPc="268439581" name="rez_cmp_local_text_hRateValue" stackId="11" startPc="268438276"/>
-        <entry endPc="268439581" name="rez_cmp_local_text_TimeLabel" stackId="12" startPc="268438276"/>
-        <entry arg="true" endPc="268439882" name="dc" stackId="1" startPc="268439582"/>
-        <entry endPc="268439882" name="rez_cmp_local_custom_drawable_10040510021823475444" stackId="2" startPc="268439594"/>
-        <entry endPc="268439882" name="rez_cmp_local_text_label" stackId="3" startPc="268439594"/>
-        <entry endPc="268439882" name="rez_cmp_local_text_value" stackId="4" startPc="268439594"/>
-        <entry arg="true" endPc="268440545" name="dc" stackId="1" startPc="268439883"/>
-        <entry endPc="268440545" name="rez_cmp_local_var_dc_getHeight" stackId="2" startPc="268439895"/>
-        <entry endPc="268440545" name="rez_cmp_local_var_dc_getWidth" stackId="3" startPc="268439895"/>
-        <entry endPc="268440545" name="rez_cmp_local_custom_drawable_17987455171710209473" stackId="4" startPc="268439895"/>
-        <entry endPc="268440545" name="rez_cmp_local_text_label" stackId="5" startPc="268439895"/>
-        <entry endPc="268440545" name="rez_cmp_local_text_value" stackId="6" startPc="268439895"/>
-        <entry endPc="268440545" name="rez_cmp_local_text_HeartRate" stackId="7" startPc="268439895"/>
-        <entry endPc="268440545" name="rez_cmp_local_text_MaxHeartRate" stackId="8" startPc="268439895"/>
+        <entry arg="true" endPc="268435973" name="dc" stackId="1" startPc="268435870"/>
+        <entry arg="true" endPc="268437152" name="dc" stackId="1" startPc="268436119"/>
+        <entry endPc="268437151" name="screenWidth" stackId="2" startPc="268436123"/>
+        <entry endPc="268437151" name="screenHeight" stackId="3" startPc="268436123"/>
+        <entry endPc="268437151" name="totalToplineItemNum" stackId="4" startPc="268436123"/>
+        <entry endPc="268437151" name="directionValue" stackId="5" startPc="268436123"/>
+        <entry endPc="268437151" name="slopeLabel" stackId="6" startPc="268436123"/>
+        <entry endPc="268437151" name="slopeValue" stackId="7" startPc="268436123"/>
+        <entry endPc="268437151" name="celsiusValue" stackId="8" startPc="268436123"/>
+        <entry endPc="268437151" name="batteryLabel" stackId="9" startPc="268436123"/>
+        <entry endPc="268437151" name="clockTime" stackId="10" startPc="268436123"/>
+        <entry endPc="268437151" name="timeString" stackId="11" startPc="268436123"/>
+        <entry endPc="268437151" name="view" stackId="12" startPc="268436123"/>
+        <entry endPc="268437151" name="timeValue" stackId="13" startPc="268436123"/>
+        <entry arg="true" endPc="268437228" name="params" stackId="1" startPc="268437172"/>
+        <entry arg="true" endPc="268437228" name="fgColor" stackId="2" startPc="268437172"/>
+        <entry arg="true" endPc="268437228" name="bgColor" stackId="3" startPc="268437172"/>
+        <entry arg="true" endPc="268437228" name="fnt" stackId="4" startPc="268437172"/>
+        <entry arg="true" endPc="268438041" name="dc" stackId="1" startPc="268437229"/>
+        <entry endPc="268438040" name="state" stackId="2" startPc="268437233"/>
+        <entry endPc="268438040" name="y" stackId="3" startPc="268437233"/>
+        <entry endPc="268438040" name="remainingBattery" stackId="4" startPc="268437233"/>
+        <entry endPc="268438040" name="textWidth" stackId="5" startPc="268437233"/>
+        <entry endPc="268438040" name="totalWidth" stackId="6" startPc="268437233"/>
+        <entry endPc="268438040" name="startX" stackId="7" startPc="268437233"/>
+        <entry endPc="268438040" name="x" stackId="8" startPc="268437233"/>
+        <entry endPc="268438040" name="points" stackId="9" startPc="268437233"/>
+        <entry endPc="268438040" name="statusWidth" stackId="10" startPc="268437233"/>
+        <entry endPc="268438040" name="statusWidthInt" stackId="11" startPc="268437233"/>
+        <entry arg="true" endPc="268438323" name="dc" stackId="1" startPc="268438088"/>
+        <entry arg="true" endPc="268438624" name="dc" stackId="1" startPc="268438324"/>
+        <entry endPc="268438624" name="rez_cmp_local_custom_drawable_91651693225113351843" stackId="2" startPc="268438336"/>
+        <entry endPc="268438624" name="rez_cmp_local_text_label" stackId="3" startPc="268438336"/>
+        <entry endPc="268438624" name="rez_cmp_local_text_value" stackId="4" startPc="268438336"/>
+        <entry arg="true" endPc="268438925" name="dc" stackId="1" startPc="268438625"/>
+        <entry endPc="268438925" name="rez_cmp_local_custom_drawable_21289553041756014366" stackId="2" startPc="268438637"/>
+        <entry endPc="268438925" name="rez_cmp_local_text_label" stackId="3" startPc="268438637"/>
+        <entry endPc="268438925" name="rez_cmp_local_text_value" stackId="4" startPc="268438637"/>
+        <entry arg="true" endPc="268439226" name="dc" stackId="1" startPc="268438926"/>
+        <entry endPc="268439226" name="rez_cmp_local_custom_drawable_74402953712199862068" stackId="2" startPc="268438938"/>
+        <entry endPc="268439226" name="rez_cmp_local_text_label" stackId="3" startPc="268438938"/>
+        <entry endPc="268439226" name="rez_cmp_local_text_value" stackId="4" startPc="268438938"/>
+        <entry arg="true" endPc="268440544" name="dc" stackId="1" startPc="268439227"/>
+        <entry endPc="268440544" name="rez_cmp_local_custom_drawable_65642801911549370961" stackId="2" startPc="268439239"/>
+        <entry endPc="268440544" name="rez_cmp_local_text_directionValue" stackId="3" startPc="268439239"/>
+        <entry endPc="268440544" name="rez_cmp_local_text_slopeLabel" stackId="4" startPc="268439239"/>
+        <entry endPc="268440544" name="rez_cmp_local_text_slopeValue" stackId="5" startPc="268439239"/>
+        <entry endPc="268440544" name="rez_cmp_local_text_celsiusValue" stackId="6" startPc="268439239"/>
+        <entry endPc="268440544" name="rez_cmp_local_text_batteryLabel" stackId="7" startPc="268439239"/>
+        <entry endPc="268440544" name="rez_cmp_local_text_batteryValue" stackId="8" startPc="268439239"/>
+        <entry endPc="268440544" name="rez_cmp_local_text_timeValue" stackId="9" startPc="268439239"/>
+        <entry endPc="268440544" name="rez_cmp_local_text_hRateLabel" stackId="10" startPc="268439239"/>
+        <entry endPc="268440544" name="rez_cmp_local_text_hRateValue" stackId="11" startPc="268439239"/>
+        <entry endPc="268440544" name="rez_cmp_local_text_TimeLabel" stackId="12" startPc="268439239"/>
+        <entry arg="true" endPc="268440845" name="dc" stackId="1" startPc="268440545"/>
+        <entry endPc="268440845" name="rez_cmp_local_custom_drawable_66565819010808373813" stackId="2" startPc="268440557"/>
+        <entry endPc="268440845" name="rez_cmp_local_text_label" stackId="3" startPc="268440557"/>
+        <entry endPc="268440845" name="rez_cmp_local_text_value" stackId="4" startPc="268440557"/>
+        <entry arg="true" endPc="268441508" name="dc" stackId="1" startPc="268440846"/>
+        <entry endPc="268441508" name="rez_cmp_local_var_dc_getHeight" stackId="2" startPc="268440858"/>
+        <entry endPc="268441508" name="rez_cmp_local_var_dc_getWidth" stackId="3" startPc="268440858"/>
+        <entry endPc="268441508" name="rez_cmp_local_custom_drawable_88298641753673070116" stackId="4" startPc="268440858"/>
+        <entry endPc="268441508" name="rez_cmp_local_text_label" stackId="5" startPc="268440858"/>
+        <entry endPc="268441508" name="rez_cmp_local_text_value" stackId="6" startPc="268440858"/>
+        <entry endPc="268441508" name="rez_cmp_local_text_HeartRate" stackId="7" startPc="268440858"/>
+        <entry endPc="268441508" name="rez_cmp_local_text_MaxHeartRate" stackId="8" startPc="268440858"/>
     </localVars>
     <annotations>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="directionValue"/>
@@ -287,17 +354,20 @@
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="timeValue"/>
     </annotations>
     <dataEntryOffsetMappings>
-        <dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
-        <dataEntry label="globals/Background" offset="166" parentId="globals" symbolId="Background" type="class"/>
-        <dataEntry label="globals/Rez" offset="237" parentId="globals" symbolId="Rez" type="module"/>
-        <dataEntry label="globals/AllNeedApp" offset="316" parentId="globals" symbolId="AllNeedApp" type="class"/>
-        <dataEntry label="globals/AllNeedView" offset="387" parentId="globals" symbolId="AllNeedView" type="class"/>
-        <dataEntry label="globals/Rez/Drawables" offset="514" parentId="Rez" symbolId="Drawables" type="module"/>
-        <dataEntry label="globals/Rez/Layouts" offset="569" parentId="Rez" symbolId="Layouts" type="module"/>
-        <dataEntry label="globals/Rez/Menus" offset="648" parentId="Rez" symbolId="Menus" type="module"/>
-        <dataEntry label="globals/Rez/Fonts" offset="679" parentId="Rez" symbolId="Fonts" type="module"/>
-        <dataEntry label="globals/Rez/Strings" offset="710" parentId="Rez" symbolId="Strings" type="module"/>
-        <dataEntry label="globals/Rez/JsonData" offset="885" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry label="globals" offset="95" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/Background" offset="182" parentId="globals" symbolId="Background" type="class"/>
+        <dataEntry label="globals/Rez" offset="253" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/ToplineDrawable" offset="332" parentId="globals" symbolId="ToplineDrawable" type="module"/>
+        <dataEntry label="globals/AllNeedApp" offset="371" parentId="globals" symbolId="AllNeedApp" type="class"/>
+        <dataEntry label="globals/AllNeedView" offset="442" parentId="globals" symbolId="AllNeedView" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="577" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="640" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="719" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Fonts" offset="750" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="781" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Rez/JsonData" offset="956" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry label="globals/ToplineDrawable/Battery" offset="987" parentId="ToplineDrawable" symbolId="Battery" type="class"/>
+        <dataEntry label="globals/Rez/Drawables/myShapes" offset="1066" parentId="Drawables" symbolId="myShapes" type="class"/>
     </dataEntryOffsetMappings>
     <functions>
         <functionEntry accessMode="public" endPc="268435485" name="getApp" startPc="268435460">
@@ -318,6 +388,9 @@
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268435640" name="&lt;init&gt;" parent="Rez" startPc="268435617">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="ToplineDrawable">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268435659" name="&lt;init&gt;" parent="AllNeedApp" startPc="268435641">
@@ -344,14 +417,14 @@
             <param id="info"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435872" name="onLayout" parent="AllNeedView" startPc="268435870">
+        <functionEntry accessMode="public" endPc="268435973" name="onLayout" parent="AllNeedView" startPc="268435870">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436017" name="initialize" parent="AllNeedView" startPc="268435873">
+        <functionEntry accessMode="public" endPc="268436118" name="initialize" parent="AllNeedView" startPc="268435974">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437360" name="onUpdate" parent="AllNeedView" startPc="268436018">
+        <functionEntry accessMode="public" endPc="268437152" name="onUpdate" parent="AllNeedView" startPc="268436119">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
@@ -373,27 +446,51 @@
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437661" name="BottomRightLayout" parent="Layouts" startPc="268437361">
+        <functionEntry accessMode="public" endPc="268437171" name="&lt;init&gt;" parent="Battery" startPc="268437153">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437228" name="initialize" parent="Battery" startPc="268437172">
+            <param id="params"/>
+            <param id="fgColor"/>
+            <param id="bgColor"/>
+            <param id="fnt"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438041" name="draw" parent="Battery" startPc="268437229">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437962" name="TopRightLayout" parent="Layouts" startPc="268437662">
+        <functionEntry accessMode="public" endPc="268438060" name="&lt;init&gt;" parent="myShapes" startPc="268438042">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438087" name="initialize" parent="myShapes" startPc="268438061">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438323" name="draw" parent="myShapes" startPc="268438088">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438263" name="BottomLeftLayout" parent="Layouts" startPc="268437963">
+        <functionEntry accessMode="public" endPc="268438624" name="BottomRightLayout" parent="Layouts" startPc="268438324">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439581" name="TopLineLayout" parent="Layouts" startPc="268438264">
+        <functionEntry accessMode="public" endPc="268438925" name="TopRightLayout" parent="Layouts" startPc="268438625">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439882" name="TopLeftLayout" parent="Layouts" startPc="268439582">
+        <functionEntry accessMode="public" endPc="268439226" name="BottomLeftLayout" parent="Layouts" startPc="268438926">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440545" name="MainLayout" parent="Layouts" startPc="268439883">
+        <functionEntry accessMode="public" endPc="268440544" name="TopLineLayout" parent="Layouts" startPc="268439227">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440845" name="TopLeftLayout" parent="Layouts" startPc="268440545">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441508" name="MainLayout" parent="Layouts" startPc="268440846">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
